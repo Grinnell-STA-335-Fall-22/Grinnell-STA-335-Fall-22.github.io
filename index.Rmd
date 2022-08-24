@@ -7,7 +7,7 @@ Welcome to the course website for STA/MAT 335: Probability & Statistics I, Fall 
 
 Here you can find a course syllabus, announcements, the schedule, daily reading, homework assignments, and information about exams. Check back frequently for updates.
 
-This course also has an associated Blackboard site on PWeb, which will be used to host grades, as well as non-public files. 
+This course also has an associated [Blackboard](https://pioneerweb.grinnell.edu/webapps/blackboard/execute/modulepage/view?course_id=_51282_1&cmp_tab_id=_45353_1) site on PWeb, which will be used to view grades, as well as host non-public files (such as solutions to homework or exams); any time a resource is posted on blackboard, a note indicating as much will be posted on the course website.
 
 
 ****************************************

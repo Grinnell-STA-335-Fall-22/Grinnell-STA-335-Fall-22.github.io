@@ -2,7 +2,7 @@
 title: "Homework"
 ---
 
-After each class session, several homework problems will be assigned, due the following Monday by 11:59pm. Homework should be submitted to [Gradescope](https://www.gradescope.com/courses/425901) and may either be typed and submitted as a .pdf, or handwritten and scanned as an image. 
+After each class session, several homework problems will be assigned, due the following Monday by 11:59pm. Homework should be submitted to [Gradescope](https://www.gradescope.com/courses/425901) and may either be typed and uploaded as a .pdf, or handwritten and scanned as an image. 
 
 #### Extensions
 
@@ -12,4 +12,4 @@ Up to twice throughout the term, an extension may be requwested on a homework as
 
 ## Assignments
 
-## Homework 1
+### Homework 1
