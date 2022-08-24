@@ -1,0 +1,1164 @@
+---
+title: "Schedule"
+---
+
+## Week 1
+
+### Monday 8-30
+
+[Lecture Notes](lecture_notes/8-30_Intro.pdf)
+
+#### Topics
+
+- Course Logistics
+- How old??
+  - [Faculty Photos](pages/age.html)
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Review the syllabus
+
+#### Due
+(Before the start of class on Monday)
+
+
+- Complete Slack Introduction:
+  1. Sign-in to our [Slack workspace](https://reedmath243fall2021.slack.com)
+  2. Think of your favorite book or movie. Then navigate to the `#general-discussion` channel using the menu on the left side of the screen and post a message with your name and pronouns (if you choose to share), along with 2 facts about yourself, one of which you think will make it *easier* to guess your favorite book or movie, and the other of which you think will make it *harder* to guess (don't say which is which). You will need to monitor your post and respond to yes or no questions about your favorite book / movie. *At the end of the first week, prizes will be awarded to the people whose book / movie was guessed in the fewest and in the greatest number of questions.*
+  
+  3. Find another another person's post, hover over it, and click the chat bubble icon to start or continue a thread. Then ask a yes or no question that can be used to help deduce the identity of the person's favorite book or movie. Repeat for at least 3 other people.
+  4. Finally, find my name (Nate Wells) under Direct Messages on the left side of the screen, and send me a private message answering the following questions:
+      a) What is your preferred name? (and what are your pronouns, if you'd like to share?)
+      b) How would you rate your proficiency with R?  (Basic / Novice / Intermediate / Advanced / Expert) Briefly describe your previous experience (i.e. what classes you've taken or projects you've completed using R).
+      c) What do you hope to take away from this course?
+      d) What concerns do you have about this course, or about academics in general this term?
+      e) What is one image that best describes you? (feel free to upload it) 
+
+
+
+
+### Wednesday 9-1
+
+[Lecture Notes](lecture_notes/9-1_GitHub.pdf)
+
+#### Topics
+
+- RStudio
+
+- GitHub
+
+- GitHub Classroom
+
+  [Working Solo GitHub](files/working_solo_github.pdf)
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- [Chapter 1](https://happygitwithr.com/big-picture.html), [Chapter 4](https://happygitwithr.com/github-acct.html) and [Chapter 12](https://happygitwithr.com/rstudio-git-github.html) in [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is your GitHub user name?
+
+2. (Optional) What is one question you have about Git and GitHub?
+
+#### Due
+
+(Before the start of class on Wednesday)
+
+- Sign up for a [GitHub](https://github.com) account.
+
+### Friday 9-3
+
+[Lecture Notes](lecture_notes/9-3_Foundations.pdf)
+
+#### Topics
+
+- Foundations of Statistical Models
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Chapter 1 and Section 2.1 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Section 2.1 presented several dichotomies: Inference vs Prediction, Parametric vs Non-parametric, Flexibility vs Interpretability, Supervised vs Unsupervised, Regression vs Classification. Choose one of these dichotomies and briefly summarize it in your own words (3 - 4 sentences).
+
+#### Due
+
+(By 5pm on Friday)
+
+- Homework 0. (Use the link in the `#announcements` channel to create your repo and view the assignment. Make sure you push any commits before 5pm on Friday.)
+
+
+***********************************************
+
+
+## Week 2
+
+### Monday 9-6
+
+*No class. Labor Day.*
+
+
+### Wednesday 9-8
+
+[Lecture Notes](lecture_notes/9-8_Assessing_Accuracy.pdf)
+
+#### Topics
+
+- Decomposing Reducible Error
+
+- The Bias-Variance Tradeoff
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 2.2 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is one advantage and one disadvantage of a very flexible (versus less flexible) approach for regression and classification?
+
+#### Assigned
+
+- Homework 1. (Due 5pm on Wednesday 9-15)
+
+### Friday 9-10
+
+[Lecture Notes](lecture_notes/9-10_KNN.pdf)
+
+#### Topics
+
+- K Nearest Neighbors for Regression and Classification
+
+  - [KNN activity .Rmd](files/classification.Rmd)
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Chapter 2.1 (p 37 - 42, *The Classification Setting*) and Chapter 3.5 in *Introduction to Statistical Learning* (ISLR 2e)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Consider the seats in our physical classroom Library 389 at 8:55am on Friday. Some of these seats will be empty and some will be filled. Suppose we want to predict whether a particular seat will be filled at the start of class at 9am. Give an informal description of how to use KNN with K = 1, 4, and 10 to predict whether a particular seat will be occupied, just using data about which seats are filled at 8:55.
+
+
+***********************************************
+
+
+## Week 3
+
+### Monday 9-13
+
+[Lecture Notes](lecture_notes/9-13_SLR.pdf)
+
+
+#### Topics
+
+- Simple Linear Regression
+
+- Inference for Linear Models
+
+  - [Poverty data](data/poverty.txt)
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.1 and 3.6.2 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Give one example of a real-world *prediction* question that could be answered using a simple linear model. Then give an example of a real-world *inference* question that could be answered using a simple linear model.
+
+### Wednesday 9-15
+
+[Lecture Notes](lecture_notes/9-15_MLR.pdf)
+
+#### Topics
+
+- Multivariate Linear Regression
+
+  - [Interactive 3d plot of MLR](files/3d_scatterplot.html) [.Rmd file](files/3d_scatterplot.Rmd)
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.2 and 3.6.3 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Suppose we want to predict the value of $Y$ based on three variables $X_1, X_2, X_3$. In what ways is a single multiple regression model for $Y$ based on $X_1, X_2, X_3$ different from creating 3 separate simple regression models for $Y$ based on each of $X_1$, $X_2$ and $X_3$ individually.
+
+#### Assigned
+
+- Homework 2. (Due 5pm on Wednesday 9-22)
+
+#### Due
+
+- Homework 1. (Due 5pm on Wednesday 9-15)
+
+
+
+### Friday 9-17
+
+ 
+ 
+
+#### Topics
+
+- Assessing Model Accuracy for MLR
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Review Chapter 3.2 and Chapter 3.6.3 in *Introduction to Statistical Learning* (ISLR 2e)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. No discussion question for Friday (note that previously, Chapter 3.3 was assigned for reading)
+
+
+
+***********************************************
+
+
+## Week 4
+
+### Monday 9-20
+
+[Lecture Notes](lecture_notes/9-20_MLR_Accuracy.pdf)
+
+#### Topics
+
+- Assessing Accuracy in MLR models
+
+- Potential Problems with Linear Models
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.3.3 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Choose one of the 6 potential problems that can occur when fitting a linear regression model in Section 3.3.3. Explain what this problem is, why it represents a cause for concern, and how it might be corrected, using language that would be understandable to a non-statistical audience.
+
+### Wednesday 9-22
+
+[Lecture Notes](lecture_notes/9-22_MLR_Extensions.pdf)
+
+#### Topics
+
+- Extensions of the MLR
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.3 and 3.6.4, 3.6.5 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Give a real-world example of a response and pair of predictors that may have a *synergy* or interaction effect, and explain why we might expect this effect based on context. (Recall: an interaction occurs when the effect of one variable on the response is amplified or diminished as the values of the other variable change; this is different than Simpson's paradox, where the relationship between predictor and response changes between a single and multivariable model)
+
+#### Assigned
+
+- Homework 3. (Due 5pm on Wednesday 9-29)
+
+#### Due
+
+- Homework 2. (Due 5pm on Wednesday 9-22)
+
+
+
+### Friday 9-24
+
+ 
+ 
+
+#### Topics
+
+- MLR Examples
+
+  - [Fuel Economy Rmd](files/FuelEconomy.Rmd)
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Review Chapter 3.4 in *Introduction to Statistical Learning* (ISLR 2e)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. No discussion question for Friday 2/24
+
+
+***********************************************
+
+
+## Week 5
+
+### Monday 9-27
+
+[Lecture Notes](lecture_notes/9-27_CV.pdf)
+
+#### Topics
+
+- Cross-Validation
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 5.1 (skip 5.1.3 ) in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Consider two variables: $Y$, the number of hours of sleep a student gets on Sunday night, and $X$ the number of mg of caffeine the student had on Sunday. Treat our class as a data set of 20 observations. Suppose we want to build a linear model predicting $Y$ as a function of $X$. Briefly explain the similarities and differences between using a $75\%$ / $25\%$ training / validation split to assess model accuracy, and using 4-fold cross validation to do the same.
+
+
+### Wednesday 9-29
+
+[Lecture Notes](lecture_notes/9-29_Bootstrap.pdf)
+
+#### Topics
+
+- Bootstrapping
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 5.2 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. In your own words, describe one problem that the bootstrap method attempts to solve.
+
+#### Assigned
+
+- Homework 4. (Due 5pm on Wednesday 10-6)
+
+#### Due
+
+- Homework 3. (Due 5pm on Wednesday 9-29)
+
+
+
+### Friday 10-1
+
+ 
+ 
+
+#### Topics
+
+- Guest Lecture: Andrew Bray on "Fairness and Loss: The promise and peril of data science"
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1.  No discussion question for Friday.
+
+
+***********************************************
+
+
+## Week 6
+
+### Monday 10-4
+
+[Lecture Notes](lecture_notes/10_4_Feature_Selection.pdf)
+
+#### Topics
+
+- Feature Selection
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- 6.1, 6.5.1 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is one advantage and one disadvantage that the forward or backward selection algorithms have over the best subset algorithm?
+
+### Wednesday 10-6
+
+[Lecture Notes](lecture_notes/10_6_Selection_Bias.pdf)
+
+#### Topics
+
+- Selection Bias
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 19.5 in *Applied Predictive Modeling* (APM)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. In your own words, describe what is meant by *selection bias* and why it is a problem for forward- or backward-selection methods of variable selection.
+
+
+#### Assigned
+
+- Homework 5. (Due 5pm on Wednesday 10-13)
+
+#### Due
+
+- Homework 4. (Due 5pm on Wednesday 10-6)
+
+
+
+### Friday 10-8
+
+[Ames Housing Results HW 3](lecture_notes/10_8_Ames_Results.pdf)
+ 
+
+#### Topics
+
+- Review for Midterm
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1.  What is one topic you'd like to review, or question you'd like to discuss during class on Friday?
+
+#### Assigned
+
+- Midterm 1. (Posted in `#announcements` channel on Slack at 5pm on Friday. Due 9am on Monday 10-11)
+  
+  - [Midterm 1 Logistics](https://reed-stat-learning-fall-2021.github.io/exams.html#Exam_1)
+  
+  
+***********************************************
+
+
+## Week 7
+
+### Monday 10-11
+
+[Lecture Notes](lecture_notes/10_11_Penalized_Regression.pdf)
+
+#### Topics
+
+- Penalized Regression
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. None
+
+### Wednesday 10-13
+
+[Lecture Notes](lecture_notes/10_13_Ridge_Regression_in_R.pdf)
+
+#### Topics
+
+- Ridge Regression
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 6.2.1, 6.2.3, and 6.6.1 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Explain why the following statement is false: "In a linear model for $Y \sim X_1 + X_2$ if the least squares regression line is $Y = 0.01 X_1 + 10 X_2$ and both predictors are significant at the $0.001$ level, then $X_2$ has a larger effect on the response than $X_1$, and is therefore, a more important predictor."
+
+
+#### Assigned
+
+- None! Have a great fall *break*!
+
+#### Due
+
+- Homework 5. (Due 5pm on Wednesday 10-13)
+
+
+
+### Friday 10-15
+
+ 
+[Lecture Notes](lecture_notes/10_15_LASSO.pdf)
+
+#### Topics
+
+- LASSO
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 6.2.2, 6.2.3 and 6.6.2 in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Briefly explain one similarity and one difference between Ridge Regression and LASSO.
+
+***********************************************
+
+
+## Fall Break
+
+Have a fantastic and restful fall break! See you back on October 25th.
+
+***********************************************
+
+ 
+
+
+## Week 8
+
+### Monday 10-25
+
+[Lecture Notes](lecture_notes/10_25_Logistic_Regression.pdf)
+
+#### Topics
+
+- Logistic Regression
+
+  - [Example of 2d Logistic surface](files/Logistic_Example.html)
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Sections 4.1 - 4.3 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is one reason linear regression is not often used for classification problems?
+
+### Wednesday 10-27
+
+[Lecture Notes](lecture_notes/10_27_Logistic_Regression_II.pdf)
+
+#### Topics
+
+- Logistic Regression
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 4.6.1 and 4.6.2 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Describe a particular real-world binary classification problem in which it is more costly to make one type of misclassification mistake than the other (i.e. if the two levels of the response are coded as 0 and 1, it is more costly to classify a true 0 as a 1 than to classify a true 1 as a 0.)
+
+
+#### Assigned
+
+- Homework 5. (Due 5pm on Wednesday 11-3)
+
+#### Due
+
+- None
+
+
+
+### Friday 10-29
+
+[Lecture Notes](lecture_notes/10_29_Classification_Performance.pdf)
+
+#### Topics
+
+- Assessing classification accuracy
+
+- Github for groups
+
+  - [Github Activity](files/collaborating_github.pdf)
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. None
+
+
+
+
+***********************************************
+
+
+
+ 
+
+ 
+
+
+## Week 9
+
+### Monday 11-1
+
+[Lecture Notes](lecture_notes/11_1_KNN_in_R.pdf)
+
+#### Topics
+
+- KNN for classification
+
+- Github for groups
+
+  - [Github Activity](files/collaborating_github.pdf)
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 4.7.6 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is one situation in which you expect KNN to outperform logistic regression for binary classification problems. What is one situation you expect logistic regression to outperform KNN?
+
+#### Due
+
+- Submit group project proposal to Github by **5pm, Monday 11/1**
+
+
+### Wednesday 11-3
+
+[Lecture Notes](lecture_notes/11_3_LDA.pdf)
+
+#### Topics
+
+- Linear Discriminant Analysis
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 4.4 (just through 4.4.2) in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1.  What is one way LDA improves upon logistic regression for classification problems? What is one limitation of LDA?
+
+
+#### Assigned
+
+- Homework 7. (Due 5pm on Wednesday 11-10)
+
+#### Due
+
+- Homework 6, part I and part II
+
+
+
+### Friday 11-5
+
+[Lecture Notes](lecture_notes/11_5_LDA_Extensions.pdf)
+
+#### Topics
+
+-  Quadratic Discriminant Analysis
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 4.4 (from 4.4.3) in *Introduction to Statistical Learning* (ISLR)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Briefly explain why it is plausible that LDA models have lower variance than QDA models, and then describe in what settings QDA models may still out-perform LDA models.
+
+
+
+
+***********************************************
+
+## Week 10
+
+### Monday 11-8
+
+[Lecture Notes](lecture_notes/11_8_Trees_I.pdf)
+
+#### Topics
+
+- Decision Trees
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 8.1 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Suppose you want to predict whether it will rain in Portland on Tuesday November 9th. Give an explicit example of a decision tree that uses two variables and at least 3 (but no more than 5) leaves that you could use to make this prediction.
+
+
+
+### Wednesday 11-10
+
+[Lecture Notes](lecture_notes/11_10_Trees_II.pdf)
+
+#### Topics
+
+- Regression and Classification Trees in R
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- 8.8 (just the part on Single Trees) and 14.8 (just the part on Classification Trees) in *Applied Predictive Modeling* (APM)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What hyperparameters need to be *tuned* for classification or regression trees? What are the possible consequences of leaving these parameters at their default values?
+
+
+#### Assigned
+
+- Homework 8. (Due 5pm on Wednesday 11-17)
+
+#### Due
+
+- Homework 7
+
+
+
+### Friday 11-12
+
+[Lecture Notes](lecture_notes/11_12_Trees_III.pdf)
+
+#### Topics
+
+-  Classification Trees
+
+  - [Classification Activity](files/classification.html)
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 14.1 in *Applied Predictive Modeling* (APM)
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Choose one of either *Gini Index* or the *Information Statistic (or entropy)* and briefly explain in 2 to 3 sentences why it is a measurement of node purity. Be sure to include what values correspond to high and to lower impurities. 
+
+***********************************************
+
+## Week 11
+
+### Monday 11-15
+
+[Lecture Notes](lecture_notes/11_15_Bagging_and_RF.pdf)
+
+#### Topics
+
+- Bagging and Random Forests
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 8.2.1, 8.2.2 and 8.3.3 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1.  What is one similarity and one difference between **bagging** and **random forests**?
+
+
+
+### Wednesday 11-17
+
+[Lecture Notes](lecture_notes/11_17_Boosting.pdf)
+
+#### Topics
+
+- Boosted Trees
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 8.2.3, 8.2.4, 8.3.4 and 8.3.5 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1.  In your own words, explain why it is plausible that boosted tree algorithms may provide accurate predictions, even if each individual tree has low accuracy.  
+
+
+#### Assigned
+
+- None
+
+#### Due
+
+- Homework 8
+
+
+
+### Friday 11-19
+
+
+
+#### Topics
+
+-  Midterm Review
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is one topic you'd like to review, or question you'd like to discuss during class on Friday?
+
+***********************************************
+
+## Week 12
+
+### Monday 11-22
+
+[Lecture Notes](lecture_notes/11_22_Tidymodels.pdf)
+
+
+#### Topics
+
+- Intro to Tidymodels
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1.  None
+
+
+
+### Wednesday 11-24
+
+ 
+
+#### Topics
+
+- More Tidymodels
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Skim Chapters 6, 7, 8 in [Tidy Modeling with R](https://www.tmwr.org/)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. Based on Monday's lecture, as well as your reading for today, what is one advantage of the tidymodels framework, compared to the workflow we've used earlier in the term? What is one disadvantage?
+
+
+#### Assigned
+
+- Homework 9
+
+#### Due
+
+- None
+
+
+
+### Friday 11-19
+
+
+
+Thanksgiving Break!
+
+
+***********************************************
+
+## Week 13
+
+### Monday 11-29
+
+[Lecture Notes](lecture_notes/11_29_Stacks.pdf) 
+
+
+#### Topics
+
+- Stacks!
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- The `stacks` package [Getting Started](https://stacks.tidymodels.org/articles/basics.html) vignette
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1.  None
+
+
+
+### Wednesday 12-1
+
+
+
+#### Topics
+
+- Guest Speaker: Kelly McConville on "AI Models in Survey Estimation"
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. None
+
+
+#### Assigned
+
+- Homework 10
+
+#### Due
+
+- Homework 9
+
+
+
+### Friday 12-3
+
+[Lecture Notes](lecture_notes/12_3_PCR.pdf)
+
+#### Topics
+
+- Principal Component Regression
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 6.3 and 6.5.3 in *Introduction to Statistical Learning* (ISLR)
+
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is one way Principal Component Regression is *similar* to feature selection via best subset? What is one important way it is different?
+ 
+
+
+***********************************************
+
+## Week 14
+
+### Monday 12-6
+
+[Lecture Video Part I](https://ensemble.reed.edu/Watch/Fc3p6NKr)
+
+[Lecture Video Part II](https://ensemble.reed.edu/Watch/i2M8WrGk) 
+
+[Lecture Notes](lecture_notes/12_6_PCA.pdf)
+
+#### Topics
+
+- Principal Component Analysis
+
+  - No class on Monday. Instea, watch the two lecture videos above on PCA and write down any questions you have, which we can discuss on Wednesday.
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 12.1, 12.2, and 12.5.1 in *Introduction to Statistical Learning* (ISLR)
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What does it mean to say a statistical learning tecnique is "unsupervised"? Why might we be interested in unsupervised techniques?
+
+
+
+### Wednesday 12-8
+
+
+
+#### Topics
+
+- Last Day of Class!
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+
+##### Discussion Question
+
+Post responses in the `#daily-reading` channel on Slack by 8am.
+
+1. What is one question you have from the video lecture on Monday?
+
+
+ 
+***********************************************

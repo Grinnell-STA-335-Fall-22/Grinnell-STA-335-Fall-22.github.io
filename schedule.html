@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Schedule</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Probability and Statistics I</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Homepage</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+<li>
+  <a href="homework.html">Homework</a>
+</li>
+<li>
+  <a href="exams.html">Exams</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Schedule</h1>
+
+</div>
+
+
+<div id="week-1" class="section level2">
+<h2>Week 1</h2>
+<div id="monday-8-30" class="section level3">
+<h3>Monday 8-30</h3>
+<p><a href="lecture_notes/8-30_Intro.pdf">Lecture Notes</a></p>
+<div id="topics" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Course Logistics</li>
+<li>How old??
+<ul>
+<li><a href="pages/age.html">Faculty Photos</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Review the syllabus</li>
+</ul>
+</div>
+<div id="due" class="section level4">
+<h4>Due</h4>
+<p>(Before the start of class on Monday)</p>
+<ul>
+<li>Complete Slack Introduction:
+<ol style="list-style-type: decimal">
+<li><p>Sign-in to our <a
+href="https://reedmath243fall2021.slack.com">Slack
+workspace</a></p></li>
+<li><p>Think of your favorite book or movie. Then navigate to the
+<code>#general-discussion</code> channel using the menu on the left side
+of the screen and post a message with your name and pronouns (if you
+choose to share), along with 2 facts about yourself, one of which you
+think will make it <em>easier</em> to guess your favorite book or movie,
+and the other of which you think will make it <em>harder</em> to guess
+(don’t say which is which). You will need to monitor your post and
+respond to yes or no questions about your favorite book / movie. <em>At
+the end of the first week, prizes will be awarded to the people whose
+book / movie was guessed in the fewest and in the greatest number of
+questions.</em></p></li>
+<li><p>Find another another person’s post, hover over it, and click the
+chat bubble icon to start or continue a thread. Then ask a yes or no
+question that can be used to help deduce the identity of the person’s
+favorite book or movie. Repeat for at least 3 other people.</p></li>
+<li><p>Finally, find my name (Nate Wells) under Direct Messages on the
+left side of the screen, and send me a private message answering the
+following questions:</p>
+<ol style="list-style-type: lower-alpha">
+<li>What is your preferred name? (and what are your pronouns, if you’d
+like to share?)</li>
+<li>How would you rate your proficiency with R? (Basic / Novice /
+Intermediate / Advanced / Expert) Briefly describe your previous
+experience (i.e. what classes you’ve taken or projects you’ve completed
+using R).</li>
+<li>What do you hope to take away from this course?</li>
+<li>What concerns do you have about this course, or about academics in
+general this term?</li>
+<li>What is one image that best describes you? (feel free to upload
+it)</li>
+</ol></li>
+</ol></li>
+</ul>
+</div>
+</div>
+<div id="wednesday-9-1" class="section level3">
+<h3>Wednesday 9-1</h3>
+<p><a href="lecture_notes/9-1_GitHub.pdf">Lecture Notes</a></p>
+<div id="topics-1" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>RStudio</p></li>
+<li><p>GitHub</p></li>
+<li><p>GitHub Classroom</p>
+<p><a href="files/working_solo_github.pdf">Working Solo
+GitHub</a></p></li>
+</ul>
+</div>
+<div id="reading-assignment-1" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li><a href="https://happygitwithr.com/big-picture.html">Chapter 1</a>,
+<a href="https://happygitwithr.com/github-acct.html">Chapter 4</a> and
+<a href="https://happygitwithr.com/rstudio-git-github.html">Chapter
+12</a> in <a href="https://happygitwithr.com/">Happy Git and GitHub for
+the useR</a></li>
+</ul>
+<div id="discussion-question" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li><p>What is your GitHub user name?</p></li>
+<li><p>(Optional) What is one question you have about Git and
+GitHub?</p></li>
+</ol>
+</div>
+</div>
+<div id="due-1" class="section level4">
+<h4>Due</h4>
+<p>(Before the start of class on Wednesday)</p>
+<ul>
+<li>Sign up for a <a href="https://github.com">GitHub</a> account.</li>
+</ul>
+</div>
+</div>
+<div id="friday-9-3" class="section level3">
+<h3>Friday 9-3</h3>
+<p><a href="lecture_notes/9-3_Foundations.pdf">Lecture Notes</a></p>
+<div id="topics-2" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Foundations of Statistical Models</li>
+</ul>
+</div>
+<div id="reading-assignment-2" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Chapter 1 and Section 2.1 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-1" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Section 2.1 presented several dichotomies: Inference vs Prediction,
+Parametric vs Non-parametric, Flexibility vs Interpretability,
+Supervised vs Unsupervised, Regression vs Classification. Choose one of
+these dichotomies and briefly summarize it in your own words (3 - 4
+sentences).</li>
+</ol>
+</div>
+</div>
+<div id="due-2" class="section level4">
+<h4>Due</h4>
+<p>(By 5pm on Friday)</p>
+<ul>
+<li>Homework 0. (Use the link in the <code>#announcements</code> channel
+to create your repo and view the assignment. Make sure you push any
+commits before 5pm on Friday.)</li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="week-2" class="section level2">
+<h2>Week 2</h2>
+<div id="monday-9-6" class="section level3">
+<h3>Monday 9-6</h3>
+<p><em>No class. Labor Day.</em></p>
+</div>
+<div id="wednesday-9-8" class="section level3">
+<h3>Wednesday 9-8</h3>
+<p><a href="lecture_notes/9-8_Assessing_Accuracy.pdf">Lecture
+Notes</a></p>
+<div id="topics-3" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Decomposing Reducible Error</p></li>
+<li><p>The Bias-Variance Tradeoff</p></li>
+</ul>
+</div>
+<div id="reading-assignment-3" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 2.2 in <em>Introduction to Statistical Learning</em>
+(ISLR)</li>
+</ul>
+<div id="discussion-question-2" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one advantage and one disadvantage of a very flexible
+(versus less flexible) approach for regression and classification?</li>
+</ol>
+</div>
+</div>
+<div id="assigned" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 1. (Due 5pm on Wednesday 9-15)</li>
+</ul>
+</div>
+</div>
+<div id="friday-9-10" class="section level3">
+<h3>Friday 9-10</h3>
+<p><a href="lecture_notes/9-10_KNN.pdf">Lecture Notes</a></p>
+<div id="topics-4" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>K Nearest Neighbors for Regression and Classification</p>
+<ul>
+<li><a href="files/classification.Rmd">KNN activity .Rmd</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-4" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Chapter 2.1 (p 37 - 42, <em>The Classification Setting</em>) and
+Chapter 3.5 in <em>Introduction to Statistical Learning</em> (ISLR
+2e)</li>
+</ul>
+<div id="discussion-question-3" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Consider the seats in our physical classroom Library 389 at 8:55am
+on Friday. Some of these seats will be empty and some will be filled.
+Suppose we want to predict whether a particular seat will be filled at
+the start of class at 9am. Give an informal description of how to use
+KNN with K = 1, 4, and 10 to predict whether a particular seat will be
+occupied, just using data about which seats are filled at 8:55.</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-3" class="section level2">
+<h2>Week 3</h2>
+<div id="monday-9-13" class="section level3">
+<h3>Monday 9-13</h3>
+<p><a href="lecture_notes/9-13_SLR.pdf">Lecture Notes</a></p>
+<div id="topics-5" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Simple Linear Regression</p></li>
+<li><p>Inference for Linear Models</p>
+<ul>
+<li><a href="data/poverty.txt">Poverty data</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-5" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 3.1 and 3.6.2 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-4" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Give one example of a real-world <em>prediction</em> question that
+could be answered using a simple linear model. Then give an example of a
+real-world <em>inference</em> question that could be answered using a
+simple linear model.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-9-15" class="section level3">
+<h3>Wednesday 9-15</h3>
+<p><a href="lecture_notes/9-15_MLR.pdf">Lecture Notes</a></p>
+<div id="topics-6" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Multivariate Linear Regression</p>
+<ul>
+<li><a href="files/3d_scatterplot.html">Interactive 3d plot of MLR</a>
+<a href="files/3d_scatterplot.Rmd">.Rmd file</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-6" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 3.2 and 3.6.3 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-5" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Suppose we want to predict the value of <span
+class="math inline">\(Y\)</span> based on three variables <span
+class="math inline">\(X_1, X_2, X_3\)</span>. In what ways is a single
+multiple regression model for <span class="math inline">\(Y\)</span>
+based on <span class="math inline">\(X_1, X_2, X_3\)</span> different
+from creating 3 separate simple regression models for <span
+class="math inline">\(Y\)</span> based on each of <span
+class="math inline">\(X_1\)</span>, <span
+class="math inline">\(X_2\)</span> and <span
+class="math inline">\(X_3\)</span> individually.</li>
+</ol>
+</div>
+</div>
+<div id="assigned-1" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 2. (Due 5pm on Wednesday 9-22)</li>
+</ul>
+</div>
+<div id="due-3" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 1. (Due 5pm on Wednesday 9-15)</li>
+</ul>
+</div>
+</div>
+<div id="friday-9-17" class="section level3">
+<h3>Friday 9-17</h3>
+<div id="topics-7" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Assessing Model Accuracy for MLR</li>
+</ul>
+</div>
+<div id="reading-assignment-7" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Review Chapter 3.2 and Chapter 3.6.3 in <em>Introduction to
+Statistical Learning</em> (ISLR 2e)</li>
+</ul>
+<div id="discussion-question-6" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>No discussion question for Friday (note that previously, Chapter 3.3
+was assigned for reading)</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-4" class="section level2">
+<h2>Week 4</h2>
+<div id="monday-9-20" class="section level3">
+<h3>Monday 9-20</h3>
+<p><a href="lecture_notes/9-20_MLR_Accuracy.pdf">Lecture Notes</a></p>
+<div id="topics-8" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Assessing Accuracy in MLR models</p></li>
+<li><p>Potential Problems with Linear Models</p></li>
+</ul>
+</div>
+<div id="reading-assignment-8" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 3.3.3 in <em>Introduction to Statistical Learning</em>
+(ISLR)</li>
+</ul>
+<div id="discussion-question-7" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Choose one of the 6 potential problems that can occur when fitting a
+linear regression model in Section 3.3.3. Explain what this problem is,
+why it represents a cause for concern, and how it might be corrected,
+using language that would be understandable to a non-statistical
+audience.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-9-22" class="section level3">
+<h3>Wednesday 9-22</h3>
+<p><a href="lecture_notes/9-22_MLR_Extensions.pdf">Lecture Notes</a></p>
+<div id="topics-9" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Extensions of the MLR</li>
+</ul>
+</div>
+<div id="reading-assignment-9" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 3.3 and 3.6.4, 3.6.5 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-8" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Give a real-world example of a response and pair of predictors that
+may have a <em>synergy</em> or interaction effect, and explain why we
+might expect this effect based on context. (Recall: an interaction
+occurs when the effect of one variable on the response is amplified or
+diminished as the values of the other variable change; this is different
+than Simpson’s paradox, where the relationship between predictor and
+response changes between a single and multivariable model)</li>
+</ol>
+</div>
+</div>
+<div id="assigned-2" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 3. (Due 5pm on Wednesday 9-29)</li>
+</ul>
+</div>
+<div id="due-4" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 2. (Due 5pm on Wednesday 9-22)</li>
+</ul>
+</div>
+</div>
+<div id="friday-9-24" class="section level3">
+<h3>Friday 9-24</h3>
+<div id="topics-10" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>MLR Examples</p>
+<ul>
+<li><a href="files/FuelEconomy.Rmd">Fuel Economy Rmd</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-10" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Review Chapter 3.4 in <em>Introduction to Statistical Learning</em>
+(ISLR 2e)</li>
+</ul>
+<div id="discussion-question-9" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>No discussion question for Friday 2/24</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-5" class="section level2">
+<h2>Week 5</h2>
+<div id="monday-9-27" class="section level3">
+<h3>Monday 9-27</h3>
+<p><a href="lecture_notes/9-27_CV.pdf">Lecture Notes</a></p>
+<div id="topics-11" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Cross-Validation</li>
+</ul>
+</div>
+<div id="reading-assignment-11" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 5.1 (skip 5.1.3 ) in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-10" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Consider two variables: <span class="math inline">\(Y\)</span>, the
+number of hours of sleep a student gets on Sunday night, and <span
+class="math inline">\(X\)</span> the number of mg of caffeine the
+student had on Sunday. Treat our class as a data set of 20 observations.
+Suppose we want to build a linear model predicting <span
+class="math inline">\(Y\)</span> as a function of <span
+class="math inline">\(X\)</span>. Briefly explain the similarities and
+differences between using a <span class="math inline">\(75\%\)</span> /
+<span class="math inline">\(25\%\)</span> training / validation split to
+assess model accuracy, and using 4-fold cross validation to do the
+same.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-9-29" class="section level3">
+<h3>Wednesday 9-29</h3>
+<p><a href="lecture_notes/9-29_Bootstrap.pdf">Lecture Notes</a></p>
+<div id="topics-12" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Bootstrapping</li>
+</ul>
+</div>
+<div id="reading-assignment-12" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 5.2 in <em>Introduction to Statistical Learning</em>
+(ISLR)</li>
+</ul>
+<div id="discussion-question-11" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>In your own words, describe one problem that the bootstrap method
+attempts to solve.</li>
+</ol>
+</div>
+</div>
+<div id="assigned-3" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 4. (Due 5pm on Wednesday 10-6)</li>
+</ul>
+</div>
+<div id="due-5" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 3. (Due 5pm on Wednesday 9-29)</li>
+</ul>
+</div>
+</div>
+<div id="friday-10-1" class="section level3">
+<h3>Friday 10-1</h3>
+<div id="topics-13" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Guest Lecture: Andrew Bray on “Fairness and Loss: The promise and
+peril of data science”</li>
+</ul>
+</div>
+<div id="reading-assignment-13" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-12" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>No discussion question for Friday.</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-6" class="section level2">
+<h2>Week 6</h2>
+<div id="monday-10-4" class="section level3">
+<h3>Monday 10-4</h3>
+<p><a href="lecture_notes/10_4_Feature_Selection.pdf">Lecture
+Notes</a></p>
+<div id="topics-14" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Feature Selection</li>
+</ul>
+</div>
+<div id="reading-assignment-14" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>6.1, 6.5.1 in <em>Introduction to Statistical Learning</em>
+(ISLR)</li>
+</ul>
+<div id="discussion-question-13" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one advantage and one disadvantage that the forward or
+backward selection algorithms have over the best subset algorithm?</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-10-6" class="section level3">
+<h3>Wednesday 10-6</h3>
+<p><a href="lecture_notes/10_6_Selection_Bias.pdf">Lecture Notes</a></p>
+<div id="topics-15" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Selection Bias</li>
+</ul>
+</div>
+<div id="reading-assignment-15" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 19.5 in <em>Applied Predictive Modeling</em> (APM)</li>
+</ul>
+<div id="discussion-question-14" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>In your own words, describe what is meant by <em>selection bias</em>
+and why it is a problem for forward- or backward-selection methods of
+variable selection.</li>
+</ol>
+</div>
+</div>
+<div id="assigned-4" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 5. (Due 5pm on Wednesday 10-13)</li>
+</ul>
+</div>
+<div id="due-6" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 4. (Due 5pm on Wednesday 10-6)</li>
+</ul>
+</div>
+</div>
+<div id="friday-10-8" class="section level3">
+<h3>Friday 10-8</h3>
+<p><a href="lecture_notes/10_8_Ames_Results.pdf">Ames Housing Results HW
+3</a></p>
+<div id="topics-16" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Review for Midterm</li>
+</ul>
+</div>
+<div id="reading-assignment-16" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-15" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one topic you’d like to review, or question you’d like to
+discuss during class on Friday?</li>
+</ol>
+</div>
+</div>
+<div id="assigned-5" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li><p>Midterm 1. (Posted in <code>#announcements</code> channel on
+Slack at 5pm on Friday. Due 9am on Monday 10-11)</p>
+<ul>
+<li><a
+href="https://reed-stat-learning-fall-2021.github.io/exams.html#Exam_1">Midterm
+1 Logistics</a></li>
+</ul></li>
+</ul>
+<hr />
+</div>
+</div>
+</div>
+<div id="week-7" class="section level2">
+<h2>Week 7</h2>
+<div id="monday-10-11" class="section level3">
+<h3>Monday 10-11</h3>
+<p><a href="lecture_notes/10_11_Penalized_Regression.pdf">Lecture
+Notes</a></p>
+<div id="topics-17" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Penalized Regression</li>
+</ul>
+</div>
+<div id="reading-assignment-17" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-16" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>None</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-10-13" class="section level3">
+<h3>Wednesday 10-13</h3>
+<p><a href="lecture_notes/10_13_Ridge_Regression_in_R.pdf">Lecture
+Notes</a></p>
+<div id="topics-18" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Ridge Regression</li>
+</ul>
+</div>
+<div id="reading-assignment-18" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 6.2.1, 6.2.3, and 6.6.1 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-17" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Explain why the following statement is false: “In a linear model for
+<span class="math inline">\(Y \sim X_1 + X_2\)</span> if the least
+squares regression line is <span class="math inline">\(Y = 0.01 X_1 + 10
+X_2\)</span> and both predictors are significant at the <span
+class="math inline">\(0.001\)</span> level, then <span
+class="math inline">\(X_2\)</span> has a larger effect on the response
+than <span class="math inline">\(X_1\)</span>, and is therefore, a more
+important predictor.”</li>
+</ol>
+</div>
+</div>
+<div id="assigned-6" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>None! Have a great fall <em>break</em>!</li>
+</ul>
+</div>
+<div id="due-7" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 5. (Due 5pm on Wednesday 10-13)</li>
+</ul>
+</div>
+</div>
+<div id="friday-10-15" class="section level3">
+<h3>Friday 10-15</h3>
+<p><a href="lecture_notes/10_15_LASSO.pdf">Lecture Notes</a></p>
+<div id="topics-19" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>LASSO</li>
+</ul>
+</div>
+<div id="reading-assignment-19" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 6.2.2, 6.2.3 and 6.6.2 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-18" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Briefly explain one similarity and one difference between Ridge
+Regression and LASSO.</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="fall-break" class="section level2">
+<h2>Fall Break</h2>
+<p>Have a fantastic and restful fall break! See you back on October
+25th.</p>
+<hr />
+</div>
+<div id="week-8" class="section level2">
+<h2>Week 8</h2>
+<div id="monday-10-25" class="section level3">
+<h3>Monday 10-25</h3>
+<p><a href="lecture_notes/10_25_Logistic_Regression.pdf">Lecture
+Notes</a></p>
+<div id="topics-20" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Logistic Regression</p>
+<ul>
+<li><a href="files/Logistic_Example.html">Example of 2d Logistic
+surface</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-20" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Sections 4.1 - 4.3 in <em>Introduction to Statistical Learning</em>
+(ISLR)</li>
+</ul>
+<div id="discussion-question-19" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one reason linear regression is not often used for
+classification problems?</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-10-27" class="section level3">
+<h3>Wednesday 10-27</h3>
+<p><a href="lecture_notes/10_27_Logistic_Regression_II.pdf">Lecture
+Notes</a></p>
+<div id="topics-21" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Logistic Regression</li>
+</ul>
+</div>
+<div id="reading-assignment-21" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 4.6.1 and 4.6.2 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-20" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Describe a particular real-world binary classification problem in
+which it is more costly to make one type of misclassification mistake
+than the other (i.e. if the two levels of the response are coded as 0
+and 1, it is more costly to classify a true 0 as a 1 than to classify a
+true 1 as a 0.)</li>
+</ol>
+</div>
+</div>
+<div id="assigned-7" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 5. (Due 5pm on Wednesday 11-3)</li>
+</ul>
+</div>
+<div id="due-8" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>None</li>
+</ul>
+</div>
+</div>
+<div id="friday-10-29" class="section level3">
+<h3>Friday 10-29</h3>
+<p><a href="lecture_notes/10_29_Classification_Performance.pdf">Lecture
+Notes</a></p>
+<div id="topics-22" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Assessing classification accuracy</p></li>
+<li><p>Github for groups</p>
+<ul>
+<li><a href="files/collaborating_github.pdf">Github Activity</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-22" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-21" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>None</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-9" class="section level2">
+<h2>Week 9</h2>
+<div id="monday-11-1" class="section level3">
+<h3>Monday 11-1</h3>
+<p><a href="lecture_notes/11_1_KNN_in_R.pdf">Lecture Notes</a></p>
+<div id="topics-23" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>KNN for classification</p></li>
+<li><p>Github for groups</p>
+<ul>
+<li><a href="files/collaborating_github.pdf">Github Activity</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-23" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 4.7.6 in <em>Introduction to Statistical Learning</em>
+(ISLR)</li>
+</ul>
+<div id="discussion-question-22" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one situation in which you expect KNN to outperform logistic
+regression for binary classification problems. What is one situation you
+expect logistic regression to outperform KNN?</li>
+</ol>
+</div>
+</div>
+<div id="due-9" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Submit group project proposal to Github by <strong>5pm, Monday
+11/1</strong></li>
+</ul>
+</div>
+</div>
+<div id="wednesday-11-3" class="section level3">
+<h3>Wednesday 11-3</h3>
+<p><a href="lecture_notes/11_3_LDA.pdf">Lecture Notes</a></p>
+<div id="topics-24" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Linear Discriminant Analysis</li>
+</ul>
+</div>
+<div id="reading-assignment-24" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 4.4 (just through 4.4.2) in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-23" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one way LDA improves upon logistic regression for
+classification problems? What is one limitation of LDA?</li>
+</ol>
+</div>
+</div>
+<div id="assigned-8" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 7. (Due 5pm on Wednesday 11-10)</li>
+</ul>
+</div>
+<div id="due-10" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 6, part I and part II</li>
+</ul>
+</div>
+</div>
+<div id="friday-11-5" class="section level3">
+<h3>Friday 11-5</h3>
+<p><a href="lecture_notes/11_5_LDA_Extensions.pdf">Lecture Notes</a></p>
+<div id="topics-25" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Quadratic Discriminant Analysis</li>
+</ul>
+</div>
+<div id="reading-assignment-25" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 4.4 (from 4.4.3) in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-24" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Briefly explain why it is plausible that LDA models have lower
+variance than QDA models, and then describe in what settings QDA models
+may still out-perform LDA models.</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-10" class="section level2">
+<h2>Week 10</h2>
+<div id="monday-11-8" class="section level3">
+<h3>Monday 11-8</h3>
+<p><a href="lecture_notes/11_8_Trees_I.pdf">Lecture Notes</a></p>
+<div id="topics-26" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Decision Trees</li>
+</ul>
+</div>
+<div id="reading-assignment-26" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 8.1 in <em>Introduction to Statistical Learning</em>
+(ISLR)</li>
+</ul>
+<div id="discussion-question-25" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Suppose you want to predict whether it will rain in Portland on
+Tuesday November 9th. Give an explicit example of a decision tree that
+uses two variables and at least 3 (but no more than 5) leaves that you
+could use to make this prediction.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-11-10" class="section level3">
+<h3>Wednesday 11-10</h3>
+<p><a href="lecture_notes/11_10_Trees_II.pdf">Lecture Notes</a></p>
+<div id="topics-27" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Regression and Classification Trees in R</li>
+</ul>
+</div>
+<div id="reading-assignment-27" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>8.8 (just the part on Single Trees) and 14.8 (just the part on
+Classification Trees) in <em>Applied Predictive Modeling</em> (APM)</li>
+</ul>
+<div id="discussion-question-26" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What hyperparameters need to be <em>tuned</em> for classification or
+regression trees? What are the possible consequences of leaving these
+parameters at their default values?</li>
+</ol>
+</div>
+</div>
+<div id="assigned-9" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 8. (Due 5pm on Wednesday 11-17)</li>
+</ul>
+</div>
+<div id="due-11" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 7</li>
+</ul>
+</div>
+</div>
+<div id="friday-11-12" class="section level3">
+<h3>Friday 11-12</h3>
+<p><a href="lecture_notes/11_12_Trees_III.pdf">Lecture Notes</a></p>
+<div id="topics-28" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Classification Trees</p></li>
+<li><p><a href="files/classification.html">Classification
+Activity</a></p></li>
+</ul>
+</div>
+<div id="reading-assignment-28" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 14.1 in <em>Applied Predictive Modeling</em> (APM)</li>
+</ul>
+<div id="discussion-question-27" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Choose one of either <em>Gini Index</em> or the <em>Information
+Statistic (or entropy)</em> and briefly explain in 2 to 3 sentences why
+it is a measurement of node purity. Be sure to include what values
+correspond to high and to lower impurities.</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-11" class="section level2">
+<h2>Week 11</h2>
+<div id="monday-11-15" class="section level3">
+<h3>Monday 11-15</h3>
+<p><a href="lecture_notes/11_15_Bagging_and_RF.pdf">Lecture
+Notes</a></p>
+<div id="topics-29" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Bagging and Random Forests</li>
+</ul>
+</div>
+<div id="reading-assignment-29" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 8.2.1, 8.2.2 and 8.3.3 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-28" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one similarity and one difference between
+<strong>bagging</strong> and <strong>random forests</strong>?</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-11-17" class="section level3">
+<h3>Wednesday 11-17</h3>
+<p><a href="lecture_notes/11_17_Boosting.pdf">Lecture Notes</a></p>
+<div id="topics-30" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Boosted Trees</li>
+</ul>
+</div>
+<div id="reading-assignment-30" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 8.2.3, 8.2.4, 8.3.4 and 8.3.5 in <em>Introduction to
+Statistical Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-29" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>In your own words, explain why it is plausible that boosted tree
+algorithms may provide accurate predictions, even if each individual
+tree has low accuracy.</li>
+</ol>
+</div>
+</div>
+<div id="assigned-10" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>None</li>
+</ul>
+</div>
+<div id="due-12" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 8</li>
+</ul>
+</div>
+</div>
+<div id="friday-11-19" class="section level3">
+<h3>Friday 11-19</h3>
+<div id="topics-31" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Midterm Review</li>
+</ul>
+</div>
+<div id="reading-assignment-31" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-30" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one topic you’d like to review, or question you’d like to
+discuss during class on Friday?</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-12" class="section level2">
+<h2>Week 12</h2>
+<div id="monday-11-22" class="section level3">
+<h3>Monday 11-22</h3>
+<p><a href="lecture_notes/11_22_Tidymodels.pdf">Lecture Notes</a></p>
+<div id="topics-32" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Intro to Tidymodels</li>
+</ul>
+</div>
+<div id="reading-assignment-32" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-31" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>None</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-11-24" class="section level3">
+<h3>Wednesday 11-24</h3>
+<div id="topics-33" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>More Tidymodels</li>
+</ul>
+</div>
+<div id="reading-assignment-33" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Skim Chapters 6, 7, 8 in <a href="https://www.tmwr.org/">Tidy
+Modeling with R</a></li>
+</ul>
+<div id="discussion-question-32" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>Based on Monday’s lecture, as well as your reading for today, what
+is one advantage of the tidymodels framework, compared to the workflow
+we’ve used earlier in the term? What is one disadvantage?</li>
+</ol>
+</div>
+</div>
+<div id="assigned-11" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 9</li>
+</ul>
+</div>
+<div id="due-13" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>None</li>
+</ul>
+</div>
+</div>
+<div id="friday-11-19-1" class="section level3">
+<h3>Friday 11-19</h3>
+<p>Thanksgiving Break!</p>
+<hr />
+</div>
+</div>
+<div id="week-13" class="section level2">
+<h2>Week 13</h2>
+<div id="monday-11-29" class="section level3">
+<h3>Monday 11-29</h3>
+<p><a href="lecture_notes/11_29_Stacks.pdf">Lecture Notes</a></p>
+<div id="topics-34" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Stacks!</li>
+</ul>
+</div>
+<div id="reading-assignment-34" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>The <code>stacks</code> package <a
+href="https://stacks.tidymodels.org/articles/basics.html">Getting
+Started</a> vignette</li>
+</ul>
+<div id="discussion-question-33" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>None</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-12-1" class="section level3">
+<h3>Wednesday 12-1</h3>
+<div id="topics-35" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Guest Speaker: Kelly McConville on “AI Models in Survey
+Estimation”</li>
+</ul>
+</div>
+<div id="reading-assignment-35" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-34" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>None</li>
+</ol>
+</div>
+</div>
+<div id="assigned-12" class="section level4">
+<h4>Assigned</h4>
+<ul>
+<li>Homework 10</li>
+</ul>
+</div>
+<div id="due-14" class="section level4">
+<h4>Due</h4>
+<ul>
+<li>Homework 9</li>
+</ul>
+</div>
+</div>
+<div id="friday-12-3" class="section level3">
+<h3>Friday 12-3</h3>
+<p><a href="lecture_notes/12_3_PCR.pdf">Lecture Notes</a></p>
+<div id="topics-36" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Principal Component Regression</li>
+</ul>
+</div>
+<div id="reading-assignment-36" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 6.3 and 6.5.3 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-35" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one way Principal Component Regression is <em>similar</em>
+to feature selection via best subset? What is one important way it is
+different?</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+<div id="week-14" class="section level2">
+<h2>Week 14</h2>
+<div id="monday-12-6" class="section level3">
+<h3>Monday 12-6</h3>
+<p><a href="https://ensemble.reed.edu/Watch/Fc3p6NKr">Lecture Video Part
+I</a></p>
+<p><a href="https://ensemble.reed.edu/Watch/i2M8WrGk">Lecture Video Part
+II</a></p>
+<p><a href="lecture_notes/12_6_PCA.pdf">Lecture Notes</a></p>
+<div id="topics-37" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li><p>Principal Component Analysis</p>
+<ul>
+<li>No class on Monday. Instea, watch the two lecture videos above on
+PCA and write down any questions you have, which we can discuss on
+Wednesday.</li>
+</ul></li>
+</ul>
+</div>
+<div id="reading-assignment-37" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>Section 12.1, 12.2, and 12.5.1 in <em>Introduction to Statistical
+Learning</em> (ISLR)</li>
+</ul>
+<div id="discussion-question-36" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What does it mean to say a statistical learning tecnique is
+“unsupervised”? Why might we be interested in unsupervised
+techniques?</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="wednesday-12-8" class="section level3">
+<h3>Wednesday 12-8</h3>
+<div id="topics-38" class="section level4">
+<h4>Topics</h4>
+<ul>
+<li>Last Day of Class!</li>
+</ul>
+</div>
+<div id="reading-assignment-38" class="section level4">
+<h4>Reading Assignment</h4>
+<p><em>Note that the listed reading assignments should be completed
+prior to class</em></p>
+<ul>
+<li>None</li>
+</ul>
+<div id="discussion-question-37" class="section level5">
+<h5>Discussion Question</h5>
+<p>Post responses in the <code>#daily-reading</code> channel on Slack by
+8am.</p>
+<ol style="list-style-type: decimal">
+<li>What is one question you have from the video lecture on Monday?</li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
