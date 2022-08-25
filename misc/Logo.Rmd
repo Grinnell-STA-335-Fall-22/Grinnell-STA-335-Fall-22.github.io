@@ -1,0 +1,37 @@
+---
+title: "Logo"
+output: html_document
+date: "2022-08-25"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(ggdark)
+```
+
+
+```{r}
+delta     <- 0.0001 
+quantiles <- 30
+z.df     <- data.frame(x = seq(from=-3, to=3, by=delta))
+z.df$pdf <- dnorm(z.df$x)
+z.df$qt  <- cut(pnorm(z.df$x),breaks=quantiles,labels=F)
+```
+
+```{r}
+g<-ggplot(z.df,aes(x=x,y=pdf))+
+  geom_area(aes(x=x,y=pdf,group=qt,fill=qt),color="black")+
+  scale_fill_gradient2(  low =  "purple4" ,
+  mid = "white",
+  high =  "forestgreen" ,
+  midpoint=median(unique(z.df$qt)), guide="none") +
+  dark_theme_gray()+
+  labs(x = "Z", y = "Density") +
+  ggtitle("The Normal Distribution")
+
+g
+```
+
+ 
