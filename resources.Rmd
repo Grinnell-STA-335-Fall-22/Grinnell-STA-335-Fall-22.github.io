@@ -2,23 +2,14 @@
 title: "Resources"
 ---
 
-A list of helpful resources.
+A list of helpful resources (to be updated throughout the term)
 
-## GitHub
-
-
-
-Instructions for working with Git and GitHub using the RStudio IDE, along with advice for a productive Git workflow:
-
-[Happy Git and GitHub for the useR](http://happygitwithr.com/)
 
 ## R and RStudio
 
-If you are new to R or need a refresher, you can sign-up for a free semester-long subscription to DataCamp (link available in Slack). Recommended courses:
+Several helpful tutorials are available on the [Stat2Labs page](https://stat2labs.sites.grinnell.edu/RTutorials.html). 
 
-  - *Introduction to Data Visualization with ggplot2*
-  
-  - *Data Manipulation with dplyr in R*
+If you are new to R or need a quick refresher, this [Introduction to R and RStudio app](https://shiny.grinnell.edu/tutorials/1_R_Intro/#section-getting-started) can get you up to speed in under an hour!
   
 The [Cookbook for R](http://www.cookbook-r.com/) and the [R Graphics Cookbook](https://r-graphics.org/) are good in-depth references for the fundamentals of R and ggplot2.
 
@@ -26,26 +17,15 @@ For quick reference, RStudio publishes several cheatsheets, like the [Visualizat
 
 You may find it helpful to install R and RStudio locally. This [tutorial](http://www.reed.edu/data-at-reed/software/R/r_studio.html) will guide you through the process.
 
-## Help and Tutoring
+## Additional Help 
 
 ### Instructor's Office Hours 
 
-- **Office**: Library 392
+- **Office**: Noyce 2449
 
-- **In-person Office Hours**: M 3-4pm, W 10-11am, F 10-11am
+- **In-person Office Hours**: M 3-4pm, W 3-4pm, Th 2-3pm, F 3-4pm
 
-- **Virtual Office Hours**: T 6-7pm
-
-- **Zoom Link**: https://zoom.us/my/wellsj392
 
 Feel free to just drop-in, no appointment necessary.
 
-### Course Assistant's Office Hours
-
-  - TBA
-
-
-
-### Peer Tutoring
-
-Reed College provides each student one free hour of [individual tutoring](https://www.reed.edu/academic_support/tutoring.html#Individual%20tutoring) per course, per week. Book an individual tutor using the [Reed Tutoring App](https://iris.reed.edu/tutor/tutors/profiles).
+ 
