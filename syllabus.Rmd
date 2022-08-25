@@ -83,11 +83,11 @@ By the end of the course, a student should be able to:
 
 - Describe uncertainty and randomness using the axiomatic language of sets and functions.
 
--Incorporate new observations into a probability model using conditional probability and independence.
+- Incorporate new observations into a probability model using conditional probability and independence.
 
 - Quantify, predict, and analyze the outcomes of random experiments using both discrete and continuous random variables. 
 
--Calculate the expected value, variance and quantiles of common discrete and continuous random variables.
+- Calculate the expected value, variance and quantiles of common discrete and continuous random variables.
 
 - Summarize and specify a random variable using its moments and moment generating function.
 
