@@ -1,1 +1,228 @@
-[Syllabus](files/Syllabus_STA335_Fall22.pdf)
+
+
+
+---
+title: "Syllabus"
+---
+
+[Syllabus as .pdf](files/Syllabus_STA335_Fall22.pdf)
+
+## Contact Information
+
+**Instructor**: Jonathan Wells
+
+**Email**: <wellsjon@grinnell.edu>
+
+**Classroom**: HSSC N3170
+
+**Office**: Noyce 2449
+
+**Office Hours**: M 3-4pm, W 3-4pm, Th 2-3pm, F 3-4pm
+
+
+
+*********************************************
+
+## Course Information
+
+### Course Description
+
+This course is a comprehensive introduction to the abstract theory of probability, as a language for interpreting and analyzing problems in statistics, natural and social sciences, and philosophy. Emphasis will be placed on refinement of problem-solving and mathematical modeling skills, along with R coding proficiency. Discrete and continuous distributions, as well as sampling distributions and the limit theorems of probability will be introduced.
+
+**Prerequisites**: MAT 215; And one of STA/MAT 209, MAT 218, or MAT 220
+
+
+### Textbook
+
+
+*Introduction to Probability* 2nd Edition by Blitzstein and Hwang. We will cover chapters 1 through 10. Reading assignments will be given on daily basis, so frequent access to the textbook is necessary. A free online copy of the textbook is available on the author's website: <http://probabilitybook.net/>
+
+### Course Resources
+
+The following web-based resources will be used for communicating class information:
+
+- Course Website <https://grinnell-sta-335-fall-22.github.io/> (*announcements, documents, schedule, assignments*)
+
+- Blackboard <https://pioneerweb.grinnell.edu> (*grades, non-public documents, e-reserves*).
+
+- Gradescope  <https://www.gradescope.com/> (*Homework \& daily assignment submissions*)
+
+
+
+
+
+
+
+### Technology
+
+You are encouraged to bring a laptop or tablet to class each day for notetaking, textbook reference, and live coding. Several classroom computers are also available during class time. Access to a computer with web-browser will be required for homework completion and submission. 
+
+We will make frequent use of the R programming language to perform calculations, sample random variables, and create probability models. Both R (the programming language) and RStudio (an editor and UI) are free to use, and can be accessed three ways:
+
+- Through the cloud on the Grinnell RStudio Server: <https://rstudio.grinnell.edu/>
+
+- On a classroom or library computer
+
+- On your own computer by downloading R (<http://www.r-project.org/>) and RStudio (<http://www.rstudio.com/>)
+
+
+
+### Communication
+
+If you would like to contact me, I can most easily be reached via email weekdays between 8am and 6pm. While I try to answer emails as soon as possible, in some cases, I may not be able to respond until the following school day. If you'd prefer to talk live, send me an email and we can schedule a time to chat on WebEx or Teams. 
+
+### Office Hourse
+
+You are free and encouraged to attend any scheduled office hours without prior appointment. These are times I have specifically set aside for answering questions, discussing class material, and helping with other college business. If you have a matter you'd prefer to discuss one-on-one, or if none of the scheduled times fit your schedule, please email me and we can arrangement another time to meet. On very rare occasions, I may need to reschedule office hours due to illness or other unavoidable conflict, and in these cases, I will notify the class via email.
+
+*********************************************
+
+## Course Outcomes
+
+By the end of the course, a student should be able to:
+
+- Describe uncertainty and randomness using the axiomatic language of sets and functions.
+
+-Incorporate new observations into a probability model using conditional probability and independence.
+
+- Quantify, predict, and analyze the outcomes of random experiments using both discrete and continuous random variables. 
+
+-Calculate the expected value, variance and quantiles of common discrete and continuous random variables.
+
+- Summarize and specify a random variable using its moments and moment generating function.
+
+- Compare and describe multiple random variables using joint, marginal, and conditional distributions, along with covariance and correlation.
+
+- Obtain and analyze new random variables by applying transformations to a class of elementary distributions.
+
+- Estimate outcomes of experiments based on existing evidence, and describe the result using conditional expectation and conditional variance.
+
+- Determine the limit of a sequence of random variables, and characterize the limit's mean and fluctuations using inequalities.
+
+- Create and sample from probability models using the R programming language.
+
+*********************************************
+
+## Course Format
+
+
+The course will be taught using in a group-based and problem-focused model. A typical class day will involve the following:
+
+- *Reading/Video Assignment*. Every class will have an assigned reading and pre-recorded lecture video, and you are expected to engage with at least one of these media before each class. At least an hour before the class period covering the given material, you will answer several reflection question on those topics. You are also encouraged to submit any questions you have on the readings/videos, or requests to review a particular topic.
+- *Active Class Session*. Our 50-minute meetings will include mini-lectures by the instructor, along with collaborative group work with your peers. The mini-lectures will provide supplementary content to the assigned readings/videos, while the group work will allow you to delve deeper into key problems and exercises. 
+- *Group Work*.  After each class session, several homework problems will be assigned, due on the following Monday by 11:59pm. At least 1 problem from each in-class activity will be included on the week's homework.
+
+### Workload
+
+A prepared student will attend class for 50 minutes per day, three days each week, and spend about two to four hours per day of class on work outside the classroom (reading, watching lecture videos, doing homework, discussing, studying, etc.).  Together, this represents a 9 - 15  hour per week commitment. 
+
+
+*********************************************
+
+## Grading Criteria
+
+Your grade in the class will be determined by your proficiency in each of the *Course Outcomes*, using the following weights:
+
+1. Daily Assignments 10%
+2. Homework 25%
+3. Participation 15%
+4. Midterm Exams 25% (12.5% each)
+5. Final Exam 25%
+
+Letter grades will be assigned based on the following course percentages (with upper and lower $2\%$ of each division corresponding to $+ / -$, respectively).
+
+- A: $90 - 100\%$
+- B: $80 - 89\%$
+- C: $70 - 79\%$
+- D: $60 - 69\%$
+- F: $< 60\%$
+
+### Daily Reading
+
+Probability intuition takes time to develop, and understanding deepens upon revisiting a concept a $2^\text{nd}$, $3^\text{rd}$, or $n^\text{th}$ time. Studying basic terminology and elementary examples in the textbook before class means that class can be spent clarifying and expanding ideas, rather than introducing them. 
+
+Daily assignments will be posted on the schedule page of the course website, and will list the specific section(s) to read for each day, along with a link to a pre-recorded lecture. A brief set of reflection questions on the readings/videos will be included, to be completed by 10am each day of class (to give me time to review them before class). These questions are not intended to be overly difficult, but should help both you and I highlight topics that need further review. The assignment will be assessed primarily on the basis of completion. **No extensions on daily reading will be given, but up to three assignments may be missed without penalty.**
+
+### Homework
+
+Homework will be due weekly on Mondays at 11:59pm, and should be submitted online to Gradescope. Homework assignments may either be typed and submitted as a .pdf file, or handwritten and scanned as an image. In both cases, solution must be legible in order to recieve credit. Where appropriate, solutions should be written in complete sentences, and be thorough enough that another student in the class can follow your reasoning without any question. **Up to twice throughout the term, an extension of up to four days may be requested on a homework assignment. Except in extraordinary circumstances, requests must be made prior to an assignment's due date.**
+
+### In-class Participation
+
+Because of the collaborative nature of this course, it is essential that you strive to attend class every day, and that you complete the assigned reading / video prior to the start of class. Additionally, in order to foster a positive and inclusive classroom environment, you are expected to follow our class code of conduct. Frequent absences, as well as non-constructive in-class participation, will be reflected in your final course grade.
+
+If you aren't able to attend class for any reason, please notify me before the start of class so that I can make appropriate group arrangements. **Typically, you may miss up to three classes without penalty. However, prolonged or recurring illness, as well as other emergencies, may require individual adjustment, in which case you should contact me to make appropriate arrangements.**
+
+
+### Midterm Exams 
+
+Two exams will be given during the term, and each will have both an in-class and take-home component. Tentatively, the exams are scheduled for:
+
+- Exam 1, Friday 9/30 (Week 6)
+- Exam 2, Friday 11/11 (Week 11)
+
+
+Take-home exams will be posted by 9am on Friday of the exam day and due by 11:59pm the following Monday. They are intended to take between 2 and 3 hours to complete and allow reference to course notes and the textbook. No homework will assigned the week of exams. **Except in the case of illness or emergency, requests to reschedule an in-class exam must be made a week before the exam.**
+
+### Final Exam
+
+The final exam will consist of two parts:
+
+- A cumulative take-home final exam, published at 9am on Tuesday 12/13 and due by 5pm on Friday 12/16.
+- A brief oral exam, individually scheduled for a 20-minute block during finals week.
+
+
+
+********************************************
+
+## Community Information
+
+### Accessibility
+
+Grinnell College is committed to creating inclusive and accommodating learning environments. Please notify me as soon as possible if there are aspects of the instruction or design of this course that result in barriers to your participation. I also encourage you to have a conversation about and provide documentation of your disability to the Coordinator for Student Disability Resources, Jae Hirschman, located on the 1st floor of Steiner Hall(x3089). If you have already been approved for accommodations, please have Disability Resources provide a letter during the first week of classes, or as soon as possible after approval. I will then contact you to schedule a meeting during which we can discuss the particular implementation of your accommodations. 
+
+### Religious Observance
+
+Grinnell College offers alternative options to complete academic work for studnets who observe religious holy days. Please contact me within the first three weeks of the semester if you would like to discuss how to meet the terms of your religious observance and also the requirements for this course.
+
+### Academic Integrity
+
+Students are allowed and encouraged to collaborate on most in-class and homework assignments. However, any work that you turn in for grading must be your own. If you collaborate on homework, you should clearly indicate the names of your collaborators on the first page of your assignment.
+
+You are welcome to use other paper or internet resources to supplement content we cover in this course; however, with the exception of existing solutions to homework or exam problems. Copying or paraphrasing solutions from the internet or other sources is an example of academic dishonesty. Exams will explicitly mention what resources may be consulted. All written work that references material outside of the textbook or lecture should be accompanied by an appropriate citation.
+
+### Code of Conduct
+
+I expect all members of the class to make participation a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+I expect everyone to act and interact in ways that contribute to an open, welcoming diverse, inclusive, and healthy community of learners. Examples of unacceptable behavior include: using sexualized language or imagery, making insulting or derogatory comments, harassing someone publicly or privately, monopolizing discussion or otherwise preventing others from meaningfully participating. Instead you can contribute to a positive learning environment by demonstrating empathy and kindness, being respectful of differing viewpoints and experiences, giving and gracefully accepting constructive feedback, and making space for everyone to contribute.
+
+
+### Assignment Feedback
+
+You will receive timely feedback on your homework via Gradescope, usually within a week of the assignment's due date. Each homework problem can earn up to five points, and correspond loosely to letter grades (5 points $\approx$ A, 4 points $\approx$ B, etc.)
+ 
+I recommend you review comments on your solutions and rework missed problems. You are welcome to talk to me about them during office hours or via email.
+
+### Help
+
+I strongly encourage you to attend my office hours each week. You are welcome to come either with specific questions, or just with general uncertainties about content we've discussed. If you are unable to attend scheduled office hours, please email me to schedule an alternative appointment (either in-person or virtual).
+
+The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) in HSSC S1310 is staffed by mentors who are experienced in R programming and may be able to troubleshoot coding problems you are having.
+
+********************************************
+
+## Tentative Schedule
+This is the schedule as of Day 1. A detailed and updated schedule is available on our [course webpage](https://grinnell-sta-335-fall-22.github.io/schedule). Section numbers are from Bltizstein and Hwang's *Intro to Probability*
+
+| Week  |  Sections Covered |  Week  | Sections Covered  |
+|---|---|---|---|
+|  1 | Introduction, 1.2, 1.3         |  9  | 7.1 - 7.3  |
+|  2 | 1.6, 2.1 - 2.4                 |  10  | 7.4, 7.5 |
+|  3 | 2.5 - 2.8                      |  11 | Review, Exam 2  |
+|  4 | 3.1 - 3.9                |  12 | 8.1 - 8.3 |
+|  5 | 4.1 - 4.6                  |  13 | 8.4 - 8.6  |
+|  6 | 4.7, Review, Exam 1       |  14 | 10.1 - 10.4 |
+|  7 | 5.1 - 5.5                |  15 | 9.1 - 9.6   |
+|  8 | 6.1 - 6.6                 |  16 | Final Exam  |
+|    | Fall Break
