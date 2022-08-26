@@ -108,7 +108,7 @@ By the end of the course, a student should be able to:
 
 The course will be taught using in a group-based and problem-focused model. A typical class day will involve the following:
 
-- *Reading/Video Assignment*. Every class will have an assigned reading and pre-recorded lecture video, and you are expected to engage with at least one of these media before each class. At least an hour before the class period covering the given material, you will answer several reflection question on those topics. You are also encouraged to submit any questions you have on the readings/videos, or requests to review a particular topic.
+- *Reading/Video Assignment*. Every class will have an assigned reading and pre-recorded lecture video, and you are expected to engage with at least one of these media before each class. By 10am on the day of the class period covering the given material, you will answer several reflection question on those topics. You are also encouraged to submit any questions you have on the readings/videos, or requests to review a particular topic.
 - *Active Class Session*. Our 50-minute meetings will include mini-lectures by the instructor, along with collaborative group work with your peers. The mini-lectures will provide supplementary content to the assigned readings/videos, while the group work will allow you to delve deeper into key problems and exercises. 
 - *Group Work*.  After each class session, several homework problems will be assigned, due on the following Monday by 11:59pm. At least 1 problem from each in-class activity will be included on the week's homework.
 
