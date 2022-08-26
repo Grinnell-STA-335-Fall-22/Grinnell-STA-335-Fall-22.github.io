@@ -12,15 +12,41 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Topics
 
 - Course Logistics
- 
 
-#### Reading Assignment
+- Quantifying Uncertainty
+
+
+
+#### Daily Assignment
 
 *Note that the listed reading assignments should be completed prior to class*
 
 - Review the [class syllabus](files/Syllabus_STA335_Fall22.pdf)
 
- 
+#### Class Activity
+
+- [CA 8-26](class_activities/CA 8-26.pdf)
 
  
 ***********************************************
+
+
+## Week 2
+
+### Monday 8-29
+
+#### Topics
+
+- Foundations of Probability
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to Gradescope*
+
+- DA 8-29
+
+#### Class Activity
+
+- CA 8-29
