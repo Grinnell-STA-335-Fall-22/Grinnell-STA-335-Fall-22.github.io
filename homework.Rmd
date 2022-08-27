@@ -6,10 +6,12 @@ After each class session, several homework problems will be assigned, due the fo
 
 #### Extensions
 
-Up to twice throughout the term, an extension may be requwested on a homework assignment. Except in extraordinary circumstances, requests must be made prior to an assignment's due date.
+Up to twice throughout the term, an extension may be requested on a homework assignment. Except in extraordinary circumstances, requests must be made prior to an assignment's due date.
 
 
 
 ## Assignments
 
 ### Homework 1
+
+- [Homework 1](homework/HW_1.pdf), due 9/5
