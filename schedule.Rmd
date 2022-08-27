@@ -50,3 +50,24 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Class Activity
 
 - CA 8-29
+
+
+### Wednesday 8-31
+
+#### Topics
+
+- Set Theory
+
+- Axioms of Probability
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 8-31](daily_assignments/DA 8-31.pdf)
+
+#### Class Activity
+
+- CA 8-31
