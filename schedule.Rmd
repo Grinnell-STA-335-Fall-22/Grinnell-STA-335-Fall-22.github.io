@@ -71,3 +71,23 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Class Activity
 
 - CA 8-31
+
+### Friday 9-2
+
+#### Topics
+
+- Introduction to R and R Studio
+
+- Using R to sample and replicate
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 9-2](daily_assignments/DA 9-2.pdf)
+
+#### Class Activity
+
+- CA 9-2
