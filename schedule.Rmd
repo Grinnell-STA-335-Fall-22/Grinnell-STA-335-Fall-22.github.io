@@ -95,3 +95,73 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Class Activity
 
 - [CA 9-2](class_activities/CA 9-2.pdf) (We didn't get to this activity today)
+
+
+***********************************************
+
+
+## Week 3
+
+### Monday 9-5
+
+#### Topics
+
+- Conditional Probability
+
+- Independence of Events
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 9-5](daily_assignments/DA 9-5.pdf)
+
+#### Class Activity
+
+- CA 9-5
+
+#### Due
+
+- Homework 1 due 11:59pm on Monday 9-5
+
+### Wednesday 9-7
+
+#### Topics
+
+- Bayes' Rule
+
+- The Law of Total Probability
+
+- Prior and Posterior Probabilities
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 9-7](daily_assignments/DA 9-7.pdf)
+
+#### Class Activity
+
+- CA 9-7
+
+### Friday 9-9
+
+#### Topics
+
+- TBA
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 9-9 (TBA by Sunday 9/4)
+
+#### Class Activity
+
+- CA 9-9
