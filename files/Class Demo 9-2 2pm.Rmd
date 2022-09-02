@@ -1,0 +1,211 @@
+---
+title: "Demo 9-2 2pm"
+author: "Wells"
+date: "9/2/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Layout
+
+4 panels:
+
+1. Upper Left: Editor
+
+2.Lower Left: Console
+
+3. Upper Right: Environment
+
+4. Lower Right: File / Plots / Packages
+
+
+## The Editor
+
+Components:
+
+- The YAML (at the top)
+
+- Regular text
+
+- Code chunks
+
+
+```{r}
+1  + 2
+```
+1 + 2 
+
+```{r}
+
+```
+
+
+Keyboard shortcut for new code chunk: 
+- Option + CMD + I (mac)
+- CTRL + ALT + I
+
+
+## Coding Basics
+
+To make a vector (from scratch)
+
+
+```{r}
+v <-  c(1, 4, 9, 16, 25)
+```
+
+Add 1 to every element in a vector
+
+
+```{r}
+v + 1
+```
+
+```{r}
+sqrt(v)
+```
+
+Want to take square root of v and make that v
+```{r}
+v <- sqrt(v)
+```
+
+How to go back?
+
+
+```{r}
+v <-  c(1, 4, 9, 16, 25)
+```
+
+Call the square root vector w
+
+```{r}
+w <- sqrt(v)
+```
+
+
+
+Converting vectors of numbers to logicals
+
+
+Which elements of v are > 10?
+
+
+```{r}
+v > 10
+```
+
+```{r}
+u <- v > 10
+```
+
+Other logical operations on vectors:
+
+1. Greater than or equal to: >=
+
+2. Less than: <
+
+3. Less than or equal to: <=
+
+4. Equals: ==
+
+5. Not equals: !=
+
+
+How many entries of v are greater than 10?
+
+In R, True is coded as 1 and False is coded as 0. 
+
+Use sum function on a logical
+
+```{r}
+sum(u)
+```
+
+```{r}
+sum(v > 10)
+```
+
+
+## Functions in R
+
+Suppose we want to square every element of a vector and subtract 1.
+
+write function f(x) = x^2 - 1.
+
+```{r}
+square_minus_one <- function(x){
+  x^2 - 1
+}
+```
+
+Functions of more than one variable:
+
+f(x,y,z) = x*y - z
+
+```{r}
+new_function <- function(variable1, variable2, variable8)
+{variable1*variable2 - variable8}
+```
+
+## Birthday Problem
+
+Suppose we have k students selecting randomly from integers 1 through n.
+
+The probability of at least 1 match is
+
+1 - n!/((n-k)!n^k)
+
+$$
+1 - \frac{n!}{(n-k)!n^k} = 1 - \binom{n}{k} \frac{k!}{n^k}
+$$
+Define a function for birthday probability
+
+```{r}
+prob_bday_match <- function(n,k){
+  1 - choose(n,k)*factorial(k)/n^k
+}
+```
+
+
+
+
+## Quick Plotting in R
+
+To make quick graphs, use plot
+
+
+
+Plot requires:
+
+1. A vector of inputs
+2. A vector of outputs
+
+To create a list of inputs, find equally spaced points in the domain.
+
+Suppose we want birthday probs for 25 students for n between 50 and 1000, in multiples of 25 
+
+```{r}
+n <- seq(from = 50, to = 1000, by = 25)
+```
+
+
+create outputs
+
+```{r}
+probs <- prob_bday_match(n, 25)
+```
+
+To plot, apply plot function to vector of inputs and outputs
+
+
+```{r}
+plot(n,probs)
+```
+
+
+

@@ -84,7 +84,7 @@ On this page you will find the topics for each day's class, along with the pre-c
 
   - Files from 11am Class: [.Rmd file](files/Class Demo 9-2 11am.Rmd) and [.html output](files/Class-Demo-9-2-11am.html)
   
-  - Files from 2pm Class: .Rmd file and .html output
+  - Files from 2pm Class: [.Rmd file](files/Class Demo 9-2 2pm.Rmd) and [.html output](files/Class-Demo-9-2-2pm.html)
 
 #### Daily Assignment
 
