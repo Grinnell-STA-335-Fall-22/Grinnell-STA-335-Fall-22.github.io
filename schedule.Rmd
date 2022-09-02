@@ -80,7 +80,11 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 - Using R to sample and replicate
 
+- Intro to R and RStudio Demo
 
+  - Files from 11am Class: [.Rmd file](files/Class Demo 9-2 11am.Rmd) and [.html output](files/Class-Demo-9-2-11am.html)
+  
+  - Files from 2pm Class: .Rmd file and .html output
 
 #### Daily Assignment
 
@@ -90,4 +94,4 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Class Activity
 
-- [CA 9-2](class_activities/CA 9-2.pdf)
+- [CA 9-2](class_activities/CA 9-2.pdf) (We didn't get to this activity today)

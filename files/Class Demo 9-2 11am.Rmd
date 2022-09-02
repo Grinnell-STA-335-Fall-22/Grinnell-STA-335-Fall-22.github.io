@@ -1,0 +1,179 @@
+---
+title: "Class Demo 9-2 11am"
+author: "Wells"
+date: "9/2/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Layout of Editor
+
+1. Upper left: Text Editor
+
+2. Lower left: Console
+
+3. Upper Right: Environment
+
+4. Lower Right: Files / Plots / Help 
+
+Just typing. This isn't code.
+
+1 + 2 
+
+
+```{r}
+1 + 2
+```
+
+
+## Coding Basic
+
+
+create a vector
+
+```{r}
+v <- c(1, 4, 9, 16, 25)
+```
+
+
+
+operations on vectors
+
+Take square root of every element of a vector
+
+```{r}
+sqrt(v)
+```
+
+```{r}
+v + 1
+```
+
+A function applied to a vector applies the function to each element.
+
+to update vector v (assign as the same name)
+
+```{r}
+v <- sqrt(v)
+```
+
+
+
+to undo, run the original function again:
+
+```{r}
+v <- c(1, 4, 9, 16, 25)
+```
+
+Usually good practice to give new names to new things:
+
+
+```{r}
+w <- sqrt(v)
+```
+
+
+
+Which elements of v are bigger than 10?
+
+
+```{r}
+v > 10
+```
+
+
+Other operations: greater than or equal to >=
+Less than <
+Less than or equal to <=
+Equals == (two equal signs)
+Not equals != 
+
+Create new vector of elements of logicals for if elements of v are > 10.
+
+
+```{r}
+u <- v > 10
+```
+
+How many elements are greater than 10?
+
+2, just by counting
+
+Ask R:
+
+```{r}
+sum(u)
+```
+
+
+How do we write functions in R?
+
+
+structure
+
+```{r}
+name_of_function <- function(variable1, variable6, pizza){
+  variable1 + variable6*pizza
+}
+```
+
+Recall the birthday problem. Suppose we have a group of k people and each chooses a number between 1 and n.
+
+The probability of a match is
+
+1 - n!/((n-k)!*n^k)
+
+$$
+1 - \frac{n!}{(n-k)! n^k} = 1 - \binom{n}{k}\frac{k!}{n^k}
+$$
+
+Write function to input n,k and return probability
+
+
+
+
+```{r}
+prob_bday_match <- function(n_bdays, k_people){
+  1 - choose(n_bdays, k_people)*factorial(k_people)/(n_bdays^k_people)
+}
+```
+
+How to plot in R (basic)?
+
+To plot function of 1 variable:
+
+1. need vector of inputs
+
+2. need vector of corresponding outputs
+
+
+Goal: Plot birthday probability for 25 students choosing from numbers between 50 and 25000.
+
+View function at equally spaced points in domain
+
+```{r}
+n_bdays <- seq(from = 50, to = 1000, by = 25)
+```
+
+
+Evaluate function on n_bdays
+
+```{r}
+probs <- prob_bday_match(n_bdays, 25)
+```
+
+Use plot function applied to vectors of inputs and outputs
+
+
+```{r}
+plot(n_bdays, probs)
+```
+
+
+
+
+
+
