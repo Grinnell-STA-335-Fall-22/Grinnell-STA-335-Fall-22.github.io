@@ -152,7 +152,9 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Topics
 
-- TBA
+- The Monty Hall Problem
+
+- Paradoxes and Fallacies in Conditional Probability
 
 
 
@@ -160,7 +162,8 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 9-9 (TBA by Sunday 9/4)
+- [DA 9-9](daily_assignments/DA 9-9.pdf)
+
 
 #### Class Activity
 
