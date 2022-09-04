@@ -104,6 +104,11 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 ### Monday 9-5
 
+
+#### Announcements
+
+- Starting Week 3, Monday, Wednesday and Friday office hours are moved to **3:30 - 4:30pm** (instead of the previous 3-4pm)
+
 #### Topics
 
 - Conditional Probability
