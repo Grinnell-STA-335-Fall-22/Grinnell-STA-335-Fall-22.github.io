@@ -15,3 +15,7 @@ Up to twice throughout the term, an extension may be requested on a homework ass
 ### Homework 1
 
 - [Homework 1](homework/HW_1.pdf), due 9/5
+
+### Homework 2
+
+- [Homework 2](homework/HW_2.pdf), due 9/12
