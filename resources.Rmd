@@ -23,7 +23,7 @@ You may find it helpful to install R and RStudio locally. This [tutorial](http:/
 
 - **Office**: Noyce 2249
 
-- **In-person Office Hours**: M 3-4pm, W 3-4pm, Th 2-3pm, F 3-4pm
+- **In-person Office Hours**: M 3:30-4:30pm, W 3:30-4:30pm, Th 2-3pm, F 3:30-4:30pm
 
 
 Feel free to just drop-in, no appointment necessary.
