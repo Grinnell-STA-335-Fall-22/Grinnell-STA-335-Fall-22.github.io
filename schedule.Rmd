@@ -125,7 +125,7 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Class Activity
 
-- CA 9-5
+- [CA 9-5](class_activities/CA 9-5.pdf)
 
 #### Due
 
