@@ -160,6 +160,8 @@ On this page you will find the topics for each day's class, along with the pre-c
 - The Monty Hall Problem
 
 - Paradoxes and Fallacies in Conditional Probability
+  
+  - [Example of Simpson's Paradox](files/Simpsons_Paradox.pdf)
 
 
 
