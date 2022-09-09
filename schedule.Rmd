@@ -175,3 +175,73 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Class Activity
 
 - [CA 9-9](class_activities/CA 9-9.pdf)
+
+
+***********************************************
+
+
+## Week 4
+
+### Monday 9-12
+
+
+ 
+
+#### Topics
+
+- Conditioning as Problem-Solving Strategy
+
+- Conditional Probability in R
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 9-12](daily_assignments/DA 9-12.pdf)
+
+#### Class Activity
+
+- CA 9-12
+
+#### Due
+
+- Homework 2 due 11:59pm on Monday 9-12
+
+### Wednesday 9-14
+
+#### Topics
+
+- TBA
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- CA 9-14
+
+#### Class Activity
+
+- CA 9-14
+
+### Friday 9-16
+
+#### Topics
+
+- TBA
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 9-16
+
+
+#### Class Activity
+
+- CA 9-16
