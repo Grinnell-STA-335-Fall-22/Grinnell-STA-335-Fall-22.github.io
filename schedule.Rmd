@@ -213,15 +213,18 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Topics
 
-- TBA
+- Random Variables
 
+- The PMF of a random variable
+
+- Examples of Random Variables: Bernoulli and Binomial
 
 
 #### Daily Assignment
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- CA 9-14
+- [DA 9-14](daily_assignments/DA 9-14.pdf)
 
 #### Class Activity
 
@@ -231,7 +234,9 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Topics
 
-- TBA
+- Further Examples of Random Variables: Hypergeometric and Discrete Uniform
+
+- The CDF of a random variable
 
 
 
@@ -239,7 +244,7 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 9-16
+- [DA 9-16](daily_assignments/DA 9-16.pdf)
 
 
 #### Class Activity
