@@ -1,0 +1,84 @@
+---
+title: "Loops in R"
+author: "Wells"
+date: "9/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+To perform a calculation or simulation several times, use the `replicate` function. Requires each trial to be independent and identical. 
+
+But if formula in ith iteration depends on i, can't use replicate. Instead, use `for` *loops*
+
+If we don't know at outset how many times to run experiment, we use `while` *loops*.
+
+## Example For Loop
+
+Suppose we want to add up first 20 integers.
+
+
+```{r}
+current_sum <- 0
+
+for (i in 1:20){
+  current_sum <- current_sum + i
+  print( c(i, current_sum) )
+}
+
+```
+
+
+## While Loops
+
+Suppose we want to figure out how many times we need to multiply 2 by itself to exceed 1000
+
+
+```{r}
+my_product <- 1
+steps <- 0
+
+while (my_product <= 1000) {
+  my_product <- my_product*2
+  steps <- steps+1
+  print(c(steps, my_product))
+}
+
+
+```
+
+## Seven Before Nine
+
+Suppose we roll a pair of dice repeatedly. What is the probability that a sum of 7 appears before a sum of 9?
+
+```{r}
+# to roll two dice and add
+sum( sample(1:6, size = 2, replace = T) ) 
+```
+
+```{r}
+seven_before_nine <- function(){
+  my_sum <- 0
+  steps <- 0
+  
+  while(my_sum != 7 & my_sum !=9){
+    my_sum <- sum( sample(1:6, size = 2, replace = T) )
+    steps <- steps+1
+  }
+  return(my_sum)
+}
+```
+
+
+Now, run function 10,000 times
+
+```{r}
+n_times <- 10^4
+sum( replicate(n_times, seven_before_nine()) == 7 ) / n_times
+```
+
+
+

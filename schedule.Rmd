@@ -193,6 +193,12 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 - Conditional Probability in R
 
+- Loops in R Demo
+
+  - Files from 11am Class: [.Rmd file](files/Class_Demo_9-12_11am.Rmd) and [.html output](files/Class_Demo_9-12_11am.html)
+  
+  - Files from 2pm Class:  
+
 
 
 #### Daily Assignment
