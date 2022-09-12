@@ -197,7 +197,7 @@ On this page you will find the topics for each day's class, along with the pre-c
 
   - Files from 11am Class: [.Rmd file](files/Class_Demo_9-12_11am.Rmd) and [.html output](files/Class_Demo_9-12_11am.html)
   
-  - Files from 2pm Class:  
+  - Files from 2pm Class: [.Rmd file](files/Class_Demo_9-12_2pm.Rmd) and [.html output](files/Class_Demo_9-12_2pm.html)
 
 
 
@@ -209,7 +209,9 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Class Activity
 
-- [CA 9-12](class_activities/CA 9-12.pdf)
+- [CA 9-12](class_activities/CA 9-12.pdf) 
+
+  - We didn't get to this class activity in class today. If you missed class, instead review the Class Demo .Rmd file for either 11am or 2pm.
 
 #### Due
 
