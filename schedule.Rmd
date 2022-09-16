@@ -258,3 +258,73 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Class Activity
 
 - [CA 9-16](class_activities/CA 9-16.pdf) 
+
+
+***********************************************
+
+## Week 5
+
+### Monday 9-19
+
+
+ 
+
+#### Topics
+
+- Functions of Random Variables
+
+- Independence of Variables
+
+- Simulating Discrete Variables in R
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 9-19](daily_assignments/DA 9-19.pdf)
+
+#### Class Activity
+
+- CA 9-19
+
+
+#### Due
+
+- Homework 3 due 11:59pm on Monday 9-19
+
+### Wednesday 9-21
+
+#### Topics
+
+- TBA
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+-  
+
+#### Class Activity
+
+-  
+
+### Friday 9-23
+
+#### Topics
+
+- TBA
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+-  
+
+
+#### Class Activity
+
+-  
