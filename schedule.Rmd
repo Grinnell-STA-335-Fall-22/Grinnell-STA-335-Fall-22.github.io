@@ -297,24 +297,30 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Topics
 
-- TBA
+- Expected Value of a Random Variable
+
+- Linearity of Expectation
+
+- The Law of the Unconscious Statistician
 
 
 #### Daily Assignment
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
--  
+- [DA 9-21](daily_assignments/DA 9-21.pdf)
 
 #### Class Activity
 
--  
+- CA 9-21
 
 ### Friday 9-23
 
 #### Topics
 
-- TBA
+- Infinite Series
+
+- The Geometric and Negative Binomial Distributions
 
 
 
@@ -322,9 +328,8 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
--  
-
+- [DA 9-23](daily_assignments/DA 9-23.pdf)
 
 #### Class Activity
 
--  
+-  CA 9-23
