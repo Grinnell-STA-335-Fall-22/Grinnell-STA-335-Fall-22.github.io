@@ -323,7 +323,7 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 - The Geometric and Negative Binomial Distributions
 
-
+- Discuss logistics for the first midterm (see details on the [Exams](exams.html) page)
 
 #### Daily Assignment
 
@@ -333,4 +333,4 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Class Activity
 
--  CA 9-23
+-  [CA 9-23](class_activities/CA 9-23.pdf)
