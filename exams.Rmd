@@ -44,7 +44,7 @@ The in-class exam will be administered as a handwritten paper exam during class 
 
 #### Resources
 
-You may bring a page of standard 8.5 x 11 paper with handwritten notes to the in-class exam. No other sources should be referenced during the exam.
+You may bring a page (back and front) of standard 8.5 x 11 paper with handwritten notes to the in-class exam. No other sources should be referenced during the exam. Neither calculator nor computer are required, or may be used, for the exam.
 
 ### Take-home Component
 
@@ -58,7 +58,7 @@ Your solutions should be neatly written or typed. If you scan a handwritten assi
 
 #### Resources
 
-You may use any notes you've taken for this class, your work on any previous homework, in-class, and daily assignments, any solutions posted to the course PWeb site, comments you've recieved on homework or assignments through gradescope, aand Blitzstein's textbook.
+You may use any notes you've taken for this class, your work on any previous homework, in-class, and daily assignments, any solutions posted to the course PWeb site, comments you've received on homework or assignments through gradescope, aand Blitzstein's textbook. You may also rewatch any of Blitzstein's youtube videos assigned for daily assignments (although the time you spend watching does count towards your time spent on the exam).
 
 For problems asking you to do analysis or perform computations using R, you may use either a local installation of R or the Grinnell RStudio server, and you may reference any of the R help files available within RStudio.
 
