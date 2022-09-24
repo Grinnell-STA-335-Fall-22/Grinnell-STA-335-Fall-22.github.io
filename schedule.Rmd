@@ -334,3 +334,69 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Class Activity
 
 -  [CA 9-23](class_activities/CA 9-23.pdf)
+
+***********************************************
+
+## Week 6
+
+### Monday 9-26
+
+
+ 
+
+#### Topics
+
+- Indicator Random Variables
+
+- The Fundamental Bridge
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 9-26](daily_assignments/DA 9-26.pdf)
+
+#### Class Activity
+
+- CA 9-26
+
+
+#### Due
+
+- Homework 4 due 11:59pm on Monday 9-26
+
+### Wednesday 9-28
+
+#### Topics
+
+- Review for Midterm
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 9-28](daily_assignments/DA 9-28.pdf)
+
+#### Class Activity
+
+- None
+
+### Friday 9-30
+
+#### Topics
+
+- In-Class Midterm 
+
+- Take-home midterm available on PWeb at 9am (in the Midterm Folder of the Documents tab)
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- None
+
+#### Class Activity
+
+-  None
