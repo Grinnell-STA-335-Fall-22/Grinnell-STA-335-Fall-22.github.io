@@ -79,3 +79,6 @@ For extra practice, several additional review problems (along with their solutio
 - [Review Problems](exams/Midterm 1 Review.pdf)
 
 - [Review Problems Solutions](exams/Midterm 1 Review Solutions.pdf)
+  - Solutions updated on Thursday 9/29:
+    - The final probability in In-Class 7c should be $\frac{1}{9}$ rather than $\frac{1}{10}$ (i.e. there are 9 numbers in the set $\{1, 2, \dots, 9 \}$.)
+    - The original solution for In-Class problem 3 was answering a slightly different question, where the box had just 2 coins (a fair and a double-headed coin), instead of 3. The final answer to each part doesn't actually change (good review: think about why!), although the intermediate steps did change.
