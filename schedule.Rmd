@@ -424,7 +424,9 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Class Activity
 
-- TBA
+- [CA 10-3](class_activities/CA 10-3.pdf)
+
+  - This is very similar to the activity from 9-26, which didn't get to during class last week
 
 
 #### Due
