@@ -438,14 +438,16 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Topics
 
-- TBA
+- Poisson Distribution
+
+- The Poisson Paradigm
 
 
 #### Daily Assignment
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- TBA
+- [DA 10-5](daily_assignments/DA 10-5.pdf)
 
 #### Class Activity
 
@@ -455,13 +457,15 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Topics
 
-- TBA
+- Continuous Random Variables
+
+- Variance
 
 #### Daily Assignment
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- TBA
+- [DA 10-7](daily_assignments/DA 10-7.pdf)
 
 #### Class Activity
 
