@@ -451,7 +451,7 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Class Activity
 
-- TBA
+- [CA 10-5](class_activities/CA 10-5.pdf)
 
 ### Friday 10-7
 
