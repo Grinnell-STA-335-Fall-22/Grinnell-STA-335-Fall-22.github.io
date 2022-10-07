@@ -469,4 +469,4 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 #### Class Activity
 
--  TBA
+- [CA 10-7](class_activities/CA 10-7.pdf) 
