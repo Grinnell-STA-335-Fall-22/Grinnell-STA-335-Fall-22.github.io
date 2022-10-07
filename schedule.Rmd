@@ -531,7 +531,7 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- [DA 10-12](daily_assignments/DA 10-12.pdf)
+- [DA 10-14](daily_assignments/DA 10-14.pdf)
 
 #### Class Activity
 
