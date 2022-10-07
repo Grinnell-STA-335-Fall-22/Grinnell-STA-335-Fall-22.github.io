@@ -470,3 +470,77 @@ On this page you will find the topics for each day's class, along with the pre-c
 #### Class Activity
 
 - [CA 10-7](class_activities/CA 10-7.pdf) 
+
+
+
+
+***********************************************
+
+## Week 8
+
+### Monday 10-10
+
+
+ 
+
+#### Topics
+
+- The Uniform Distribution
+
+- Universality of the Uniform
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 10-10](daily_assignments/DA 10-10.pdf)
+
+#### Class Activity
+
+- TBA
+
+### Wednesday 10-12
+
+#### Topics
+
+- Normal Random Variables
+
+- Continuous Variables in R
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- TBA
+
+#### Class Activity
+
+- TBA
+
+### Friday 10-14
+
+#### Topics
+
+- The Exponential Variable
+
+- Connections between The Exponential and the Poisson variables
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- TBA
+
+#### Class Activity
+
+- TBA
+
+
+
+
+
+
+
+
