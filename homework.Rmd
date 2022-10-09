@@ -37,3 +37,9 @@ Up to twice throughout the term, an extension may be requested on a homework ass
   - Homework 5 updated on Thursday 10/6
   
   - *NOTE:* An earlier version of this assignment erroneously included Problem 5 from **Chapter 5**, instead of the intended Problem 5 from **Chapter 4**. The latest version of HW 5 now correctly lists Problem 5 from Chapter 4.
+  
+### Homework 6
+
+- [Homework 6](homework/HW_6.pdf), due 10/24 (after Fall Break)
+
+  - Currently, just includes problems for 10/10. Will be updated on 10/11 with problems for 10/12 and 10/14.
