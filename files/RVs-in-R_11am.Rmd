@@ -1,0 +1,96 @@
+---
+title: "Demo 10-12"
+output: pdf_document
+date: "2022-10-12"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+R has common syntax for working with R.V.s
+
+Each distribution in R has an R name:
+
+- Binomial: `binom`
+
+- Hypergeometric: `hyper`
+
+- Geometric: `geom`
+
+- Negative Binomial: `nbinom`
+
+- Poisson: `pois`
+
+- (Continuous) Unifoirm: `unif`
+
+- Normal: `norm`
+
+(Missing: Discrete uniform)
+
+Append function name to 1 of 4 letters to calculate specific values
+
+1. Compute values of PMF / PDF: `d`
+
+EX: `dnorm(x, mean = 0, sd = 1)` computes the value of the PDF of N(0,1) at x
+
+2. Compute values of CDF: `p`
+
+EX: `pnorm(x, mean = 0, sd = 1)` computing the value of CDF of N(0,1) at x.
+
+3. Compute values of Quantile function: `q`
+
+EX: `qnorm(p, mean = 0, sd = 1)` computes quantile function $F^{-1}(p)$
+
+4. Generate a sample from the distribution of a variable: `r`
+
+EX: `rnorm(1, mean = 0, sd = 1)` a single instance of a random value from N(0,1) distribution
+
+
+## Histograms
+
+A histogram is a visual display of distribution of sample.
+
+Suppose we sample $n$ from the distribution of some variable
+
+```{r}
+x<- rnorm(100, mean = 0, sd = 1)
+x
+```
+
+Divide range of sampled values into equal length intervals. Count number of sampled points in each interval.
+
+Plot rectangles whose base lies above interval and whose height corresponds to count of number of points in interval.
+
+```{r}
+hist(x)
+```
+
+
+Can also explicitly determine length or number of intervals
+
+```{r}
+#to specify m intervals, add breaks = m
+hist(x, breaks = 20)
+```
+
+```{r}
+# for specific lengths, create sequence of endpoints
+s <- seq(from = -3, to = 4, by =.25)
+hist(x, breaks = s)
+```
+
+Often, we want to standardize heights of bars so total area of histogram is 1.
+
+In this way, area of each bar is proportion of observations in each bars interval.
+
+```{r}
+hist(x, freq = F)
+```
+
+
+
+
+
+

@@ -519,6 +519,10 @@ On this page you will find the topics for each day's class, along with the pre-c
 
 - [CA 10-12](class_activities/CA 10-12.pdf) 
 
+- In-class R demo
+
+  - Demo 11am [.pdf](files/RVs-in-R_11am.pdf) and [.Rmd](files/RVs-in-R_11am.Rmd)
+
 ### Friday 10-14
 
 #### Topics
