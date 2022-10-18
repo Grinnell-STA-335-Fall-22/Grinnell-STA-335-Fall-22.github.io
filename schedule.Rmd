@@ -542,6 +542,76 @@ On this page you will find the topics for each day's class, along with the pre-c
 - [CA 10-14](class_activities/CA 10-14.pdf) 
 
 
+***********************************************
+
+## Fall Break 10-15 - 10-23
+
+Class resumes Monday, 10-24
+
+
+***********************************************
+
+## Week 9
+
+### Monday 10-24
+
+
+ 
+
+#### Topics
+
+- Moments of Random Variables
+
+- Sample Moments
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 10-24](daily_assignments/DA 10-24.pdf)
+
+#### Class Activity
+
+- CA 10-24
+
+### Wednesday 10-26
+
+#### Topics
+
+- Power Series
+
+- Taylor Series
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 10-26
+
+#### Class Activity
+
+ 
+
+### Friday 10-26
+
+#### Topics
+
+- The Moment Generating Function
+
+- Moment Generating Functions and Sums
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 10-26
+
+#### Class Activity
+
+- CA 10-26
+
 
 
 
