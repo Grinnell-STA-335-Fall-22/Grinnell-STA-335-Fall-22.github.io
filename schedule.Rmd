@@ -588,7 +588,7 @@ Class resumes Monday, 10-24
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 10-26
+- [DA 10-26](daily_assignments/DA 10-26.pdf)
 
 #### Class Activity
 
