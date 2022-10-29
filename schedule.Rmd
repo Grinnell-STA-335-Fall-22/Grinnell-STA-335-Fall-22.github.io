@@ -616,5 +616,64 @@ Class resumes Monday, 10-24
 
 
 
+***********************************************
+
+## Week 10
+
+### Monday 10-31
+
+
+ 
+
+#### Topics
+
+- Jointly Distributed Random Variables (Discrete)
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 10-31](daily_assignments/DA 10-31.pdf)
+
+#### Class Activity
+
+- CA 10-31
+
+### Wednesday 11-2
+
+#### Topics
+
+- Jointly Distributed Random Variables (Continuous, Hybrid)
+
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 11-2](daily_assignments/DA 11-2.pdf)
+
+#### Class Activity
+
+- CA 11-2
+
+### Friday 11-4
+
+#### Topics
+
+- 2D LOTUS
+
+- Covariance and Correlation
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 11-4](daily_assignments/DA 11-4.pdf)
+
+#### Class Activity
+
+- CA 11-4
 
 
