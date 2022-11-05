@@ -677,3 +677,65 @@ Class resumes Monday, 10-24
 - [CA 11-4](class_activities/CA 11-4.pdf)
 
 
+***********************************************
+
+## Week 11
+
+### Monday 11-7
+
+
+ 
+
+#### Topics
+
+- The multinomial distribution
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 11-7](daily_assignments/DA 11-7.pdf)
+
+#### Class Activity
+
+- CA 11-7
+
+
+### Wednesday 11-9
+
+#### Topics
+
+- Review for Midterm
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 11-9](daily_assignments/DA 11-9.pdf)
+
+#### Class Activity
+
+- None
+
+### Friday 11-11
+
+#### Topics
+
+- In-Class Midterm 
+
+- Take-home midterm available on PWeb at 5pm (in the Midterm Folder of the Documents tab)
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- None
+
+#### Class Activity
+
+-  None
+
+
+***********************************************
