@@ -134,6 +134,6 @@ Additionally, you should look back through previous Daily Assignments, Class Act
 
 For extra practice, several additional review problems (along with their solutions) are printed in the .pdf linked below. I've tried to sort the problems by whether I think they are more appropriate as an in-class question or as a take-home question. While these questions are representative of the typical scope and difficulty of individual exam questions, this review is not comprehensive, nor does it necessarily represent the total amount of time available for the exam. 
 
-- Review Problems (will be posted by Monday 11/7)
+- [Review Problems](exams/Midterm 2 Review.pdf)
 
 - Review Problems Solutions (will be posted by Monday 11/7)
