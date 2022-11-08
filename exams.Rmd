@@ -60,6 +60,8 @@ Your solutions should be neatly written or typed. If you scan a handwritten assi
 
 You may use any notes you've taken for this class, your work on any previous homework, in-class, and daily assignments, any solutions posted to the course PWeb site, comments you've received on homework or assignments through gradescope, aand Blitzstein's textbook. You may also rewatch any of Blitzstein's youtube videos assigned for daily assignments (although the time you spend watching does count towards your time spent on the exam).
 
+You may also use WolframAlpha, Maple, Mathematica, or Symbolab to assist with calculating integrals, derivatives, or algebraic simplification. If you use technology to assist calculating, please clearly reference the cite you used to assist you, and write down the explicit expression / code you input.
+
 For problems asking you to do analysis or perform computations using R, you may use either a local installation of R or the Grinnell RStudio server, and you may reference any of the R help files available within RStudio.
 
 You may not use any other resources other than those listed above. You may not seek answers to exam questions online or in other textbooks, and may not work with others on the exam.
@@ -136,4 +138,4 @@ For extra practice, several additional review problems (along with their solutio
 
 - [Review Problems](exams/Midterm 2 Review.pdf)
 
-- Review Problems Solutions (will be posted by Monday 11/7)
+- [Review Problems Solutions](exams/Midterm 2 Review Solutions.pdf)
