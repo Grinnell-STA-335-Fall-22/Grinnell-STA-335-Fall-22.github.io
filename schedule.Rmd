@@ -740,8 +740,7 @@ Class resumes Monday, 10-24
 
 ***********************************************
 
-
-***********************************************
+ 
 
 ## Week 12
 
@@ -780,7 +779,7 @@ Class resumes Monday, 10-24
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 11-16
+- [DA 11-16](daily_assignments/DA 11-16.pdf)
 
 #### Class Activity
 
@@ -790,13 +789,15 @@ Class resumes Monday, 10-24
 
 #### Topics
 
-- TBA
+- The Gamma Distribution
+
+- Poisson Processes
 
 #### Daily Assignment
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 11-18
+- [DA 11-18](daily_assignments/DA 11-18.pdf)
 
 #### Class Activity
 
