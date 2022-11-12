@@ -739,3 +739,68 @@ Class resumes Monday, 10-24
 
 
 ***********************************************
+
+
+***********************************************
+
+## Week 12
+
+### Monday 11-14
+
+
+ 
+
+#### Topics
+
+- Review: Change-of-Variables from Multivariate Calculus
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- No required reading; but for additional reference or review, consider the following resources:
+  - [Whitman Community Calculus: Polar Coordinates](https://www.whitman.edu/mathematics/calculus_late_online/section17.02.html)
+  - [Whitman Community Calculus: Cylindrical and Spherical Coordinates](https://www.whitman.edu/mathematics/calculus_late_online/section17.06.html)
+  - [Whitman Community Calculus: Change of Variables](https://www.whitman.edu/mathematics/calculus_late_online/section17.07.html)
+
+#### Class Activity
+
+- None
+
+
+### Wednesday 11-16
+
+#### Topics
+
+- Change-of-Variables Formula for Single and Multiple Random Variables
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 11-16
+
+#### Class Activity
+
+- CA 11-16
+
+### Friday 11-18
+
+#### Topics
+
+- TBA
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 11-18
+
+#### Class Activity
+
+-  CA 11-18
+
+
+***********************************************
