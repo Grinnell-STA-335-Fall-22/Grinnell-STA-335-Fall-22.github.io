@@ -767,6 +767,8 @@ Class resumes Monday, 10-24
 
 - None
 
+  - But here are my [lecture notes](lecture_notes/Change-of-Variables.pdf) from today
+
 
 ### Wednesday 11-16
 
