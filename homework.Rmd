@@ -56,3 +56,6 @@ Up to twice throughout the term, an extension may be requested on a homework ass
 
   - *Updated 11/1.* Previously, HW 8 included an AP1 problem, although it turns out this exercise was solved in Theorem 4.8.1, so AP1 was removed from the homework set.
 
+### Homework 9
+
+- [Homework 9](homework/HW_9.pdf), due 11/21
