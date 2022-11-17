@@ -59,3 +59,5 @@ Up to twice throughout the term, an extension may be requested on a homework ass
 ### Homework 9
 
 - [Homework 9](homework/HW_9.pdf), due 11/21
+
+  - *Updated 11/17.* Previously, HW 9 included an AP3 problem. But it turns out that solving part of this problem requires an integration technique that we won't talk about until Monday's class. So AP3 has been removed from this homework, and will instead appear on a later assignment.
