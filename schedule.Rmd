@@ -830,9 +830,11 @@ Class resumes Monday, 10-24
 
 - No new daily assignment; however, you may want to review your answers to DA 11-18
 
+  - Additionally, I've reopened DA 11-18 on gradescope until Monday 11-21 at 10am, so if you did not complete this DA for Friday, you can do so now.
+
 #### Class Activity
 
--  [CA 11-18](class_activities/CA 11-18.pdf)
+-  [CA 11-21](class_activities/CA 11-18.pdf)
 
 
 ### Wednesday 11-23
@@ -848,7 +850,8 @@ Class resumes Monday, 10-24
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 11-23
+- [DA 11-23](daily_assignments/DA 11-23.pdf)
+
 
 #### Class Activity
 
