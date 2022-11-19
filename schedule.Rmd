@@ -767,7 +767,7 @@ Class resumes Monday, 10-24
 
 - None
 
-  - But here are my [lecture notes](lecture_notes/Change-of-Variables.pdf) from today
+  - But here are my [lecture notes](lecture_notes/Change-of-Variables.pdf) from Monday
 
 
 ### Wednesday 11-16
@@ -775,6 +775,8 @@ Class resumes Monday, 10-24
 #### Topics
 
 - Change-of-Variables Formula for Single and Multiple Random Variables
+
+  - Here are my [lecture notes](lecture_notes/Transformations_RV.pdf) from Wednesday
 
 
 #### Daily Assignment
