@@ -837,6 +837,11 @@ Class resumes Monday, 10-24
 -  [CA 11-21](class_activities/CA 11-18.pdf)
 
 
+#### Additional Resources
+
+- Although not specifically related to the Gamma Distribution, [this video](https://www.youtube.com/watch?v=KuXjwB4LzSA&ab_channel=3Blue1Brown) by 3Blue1Brown might be helpful to understand the convolution formula that appears in the PDF of a sum of random variables.
+
+
 ### Wednesday 11-23
 
 #### Topics
