@@ -852,6 +852,7 @@ Class resumes Monday, 10-24
 
 - Beta and Gamma Correspondence
 
+- Here are [lecture notes](lecture_notes/Beta.pdf) from today's class.
 
 #### Daily Assignment
 
@@ -862,7 +863,7 @@ Class resumes Monday, 10-24
 
 #### Class Activity
 
-- CA 11-23
+- [CA 11-23](class_activities/CA 11-23.pdf)
 
 ### Friday 11-25
 
