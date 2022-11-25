@@ -872,3 +872,66 @@ No class; thanksgiving holiday
 
 
 ***********************************************
+
+ 
+
+## Week 14
+
+### Monday 11-28
+
+
+ 
+
+#### Topics
+
+- Conditional expectation given an event
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 11-28](daily_assignments/DA 11-28.pdf)
+
+#### Class Activity
+
+- CA 11-28
+
+
+### Wednesday 11-30
+
+#### Topics
+
+- Condition expectation given a random variable
+
+- Properties of conditional expectation
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 11-30
+
+#### Class Activity
+
+- CA 11-30
+
+### Friday 12-2
+
+#### Topics
+
+-  Conditional Variance
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 12-2
+
+
+#### Class Activity
+
+- CA 12-2
+
+
+***********************************************
