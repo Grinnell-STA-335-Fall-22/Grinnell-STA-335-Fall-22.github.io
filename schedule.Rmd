@@ -926,7 +926,7 @@ No class; thanksgiving holiday
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 12-2
+- [DA 12-2](daily_assignments/DA 12-2.pdf)
 
 
 #### Class Activity
