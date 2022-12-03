@@ -934,4 +934,70 @@ No class; thanksgiving holiday
 - [CA 12-2](class_activities/CA 12-2.pdf)
 
 
+
+
+
+***********************************************
+
+ 
+
+## Week 15
+
+### Monday 12-5
+
+
+ 
+
+#### Topics
+
+- Multivariate Normal
+
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- [DA 12-5](daily_assignments/DA 12-5.pdf)
+
+#### Class Activity
+
+- [CA 12-5] 
+
+
+### Wednesday 12-7
+
+#### Topics
+
+- Inequalities
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 12-7
+
+#### Class Activity
+
+- CA 12-7
+
+### Friday 12-9
+
+#### Topics
+
+-  The Law of Large Numbers
+
+-  The Central Limit Theorem
+
+#### Daily Assignment
+
+*Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
+
+- DA 12-9
+
+
+#### Class Activity
+
+- CA 12-9
+
+
 ***********************************************
