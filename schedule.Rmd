@@ -963,7 +963,9 @@ No class; thanksgiving holiday
 
 #### Class Activity
 
-- [CA 12-5](class_activities/CA 12-5.pdf)
+- CA 12-5 (We didn't get to the class activity today.)
+
+  - Here are my [lecture notes](lecture_notes/MVN.pdf) from today.
 
 
 
