@@ -976,11 +976,13 @@ No class; thanksgiving holiday
 
 - Inequalities
 
+- The Law of Large Numbers
+
 #### Daily Assignment
 
 *Note that the listed reading assignments should be completed by 10am and submitted to [Gradescope](https://www.gradescope.com/courses/425901)*
 
-- DA 12-7
+- [DA 12-7](daily_assignments/DA 12-7.pdf)
 
 #### Class Activity
 
@@ -989,8 +991,6 @@ No class; thanksgiving holiday
 ### Friday 12-9
 
 #### Topics
-
--  The Law of Large Numbers
 
 -  The Central Limit Theorem
 
