@@ -20,7 +20,7 @@ More information about the midterms (including logistics, topics and study guide
 The final exam will consist of two parts:
 
 1. A cumulative take-home final exam, published at 9am on Tuesday 12/13 and due by 5pm on Friday 12/16.
-2. A brief oral exam, individually scheduled for a 20-minute block during finals week.
+2. ~~A brief oral exam, individually scheduled for a 20-minute block during finals week.~~
 
 There will not be an in-class portion for the final exam.
 
@@ -84,7 +84,8 @@ For extra practice, several additional review problems (along with their solutio
   - Solutions updated on Thursday 9/29:
     - The final probability in In-Class 7c should be $\frac{1}{9}$ rather than $\frac{1}{10}$ (i.e. there are 9 numbers in the set $\{1, 2, \dots, 9 \}$.)
     - The original solution for In-Class problem 3 was answering a slightly different question, where the box had just 2 coins (a fair and a double-headed coin), instead of 3. The final answer to each part doesn't actually change (good review: think about why!), although the intermediate steps did change.
-    
+
+************************************************************************* 
     
 ## Midterm Exam 2 Information
 
@@ -139,3 +140,51 @@ For extra practice, several additional review problems (along with their solutio
 - [Review Problems](exams/Midterm 2 Review.pdf)
 
 - [Review Problems Solutions](exams/Midterm 2 Review Solutions.pdf)
+
+*************************************************************************
+
+## Final Exam Information
+
+Contrary to information earlier in the term, the final exam will consist of a single part: a take-home exam. There will be no oral exam.
+
+### Content
+
+The exam will be cumulative, but with slight emphasis on material covered since the 2nd midterm. In particular, it will include material covered in class through Friday 12/9, corresponding to Chapters 1 - 10 of Blitzstein's *Introduction to Probability*. Chapters that were not assigned for daily reading will not be directly tested (although the content may incidentally show up in other ways, if it is connected to something we did cover).
+
+The take-home component **will** include R coding questions.
+
+
+### Take-home Component
+
+#### Format
+
+The take-home exam will be posted on PWeb at 9am on Tuesday 12/13 and will be due on Gradescope by 5pm on Friday 12/16. Questions on the take-home exam will be similar in difficulty and scope to questions on homework.
+
+You may take up to 4 hours to complete the exam, but these 4 hours do not need to be consecutive. You should monitor your own time, and then record on the exam your estimate for the total amount of time you actively worked on the exam.
+
+Your solutions should be neatly written or typed. If you scan a handwritten assignment, be sure to review the legibility of your scan and upload before you submit your assignment.
+
+#### Resources
+
+You may use any notes you've taken for this class, your work on any previous homework, in-class, and daily assignments, any solutions posted to the course PWeb site, comments you've received on homework or assignments through gradescope, aand Blitzstein's textbook. You may also rewatch any of Blitzstein's youtube videos assigned for daily assignments (although the time you spend watching does count towards your time spent on the exam).
+
+For problems asking you to do analysis or perform computations using R, you may use either a local installation of R or the Grinnell RStudio server, and you may reference any of the R help files available within RStudio.
+
+You may not use any other resources other than those listed above. You may not seek answers to exam questions online or in other textbooks, and may not work with others on the exam.
+
+### Preparation
+
+To prepare for the exam, you should attempt to accurately assess what topics you have mastered and which you need to practice more. As a starting point, it may be helpful to review the **Objectives** listed on each Daily Assignment.
+
+You may also find it helpful to create your own study guide with summaries of the important concepts, theorems and definitions. Look at the **Recap** section of each chapter of the textbook for inspiration for what a summary might look like.
+
+Additionally, you should look back through previous Daily Assignments, Class Activities and Homework, paying careful attention to problems you did not complete or get correct. Try to identify any commonalities among the problems you missed, and work to improve in these areas.
+
+### Review Problems
+
+For extra practice, several additional review problems (along with their solutions) are printed in the .pdf linked below. While these questions are representative of the typical scope and difficulty of individual exam questions, this review is not comprehensive, nor does it necessarily represent the total amount of time available for the exam. Additionally, while the exam will be cumulative, these problems focus primarily on content covered since the second midterm. You should use older exams, homework, and class activities to review older material.
+
+
+- [Review Problems](exams/Final Exam Review.pdf)
+
+- [Review Problems Solutions](exams/Final Exam Review Solutions.pdf)
