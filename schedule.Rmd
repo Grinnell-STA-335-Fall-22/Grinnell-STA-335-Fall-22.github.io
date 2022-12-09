@@ -1006,6 +1006,8 @@ No class; thanksgiving holiday
 - No class activity for 12-9. But a coding demo will be posted here after class.
   
   - Demo from 11am: [html](files/LLN_and_CLT_11am.html) and [.Rmd](files/LLN_and_CLT_11am.pdf)
+  
+  - Demo from 2pm: [html](files/LLN_and_CLT_2pm.html) and [.Rmd](files/LLN_and_CLT_2pm.pdf)
 
 
 ***********************************************
