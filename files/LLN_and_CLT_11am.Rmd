@@ -1,0 +1,104 @@
+---
+title: "Law of Large Numbers and Central Limit Theorem: 11am"
+author: "Wells"
+date: "2022-12-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Weak Law of Large Numbers
+
+Goal: Show that $P(|\bar X_n - \mu| > \epsilon)$ can be made arbitrarily small by taking large values of $n$.
+
+Setup: Flip a fair coin a large number of times and look at proportion of heads, repeated a large number of times
+
+```{r}
+n_flips <- 5000 #This is how many coins we will flip
+trials <- 10^5 #This is how many times we will perform the experiment
+```
+
+```{r}
+props <- rep(0, trials) #initialize a vector to store our results
+
+for (i in 1:trials){
+  my_sample <- sample(0:1, n_flips, replace = T) #flip the coin n_flips times
+  props[i] <- mean(my_sample) #compute the proportion of heads and store as ith
+                              #element of props vector
+}
+```
+
+
+```{r}
+hist(props) #look at histogram to see what proportion 
+            #of trials had mean close to 0.5
+```
+
+```{r}
+epsilon <- 0.01 #set a threshold for closeness
+
+mean(abs(props - 0.5) > epsilon) #determine the proportion of trials that
+                                 #had mean within this threshold of 0.5
+```
+
+## Strong Law of Large Numbers
+
+
+Goal: Show that $\bar X_n$ can be made arbitrarily close to $\mu$ by taking $n$ large.
+
+
+```{r}
+n_flips <- 10^5 #This is how many coins we will flip
+my_sample <- sample(0:1, n_flips, replace = T) #flip the coin n_flips times
+running_prop <- cumsum(my_sample)/1:n_flips #create a running proportion of heads
+```
+
+
+```{r}
+plot(running_prop, type = "l") 
+#The plot should show the running proportion ff heads tending toward 0.5
+```
+
+### Central Limit Theorem
+
+
+Goal: Show that distribution $\bar X_n$ is approximately Normal
+
+```{r}
+n <- 10^4 #Set the sample size
+n_trials <- 10^4 #set the number of trials of the experiment
+```
+
+
+```{r}
+## Exponential 1
+mean<- 1 #The mean Expo(1) is 1
+variance <- 1 #The variance Expo(1) is 1
+
+standardized_values <- rep(0, n_trials) 
+#create a vector to store standardized values
+
+for (i in 1:n_trials){
+   my_sample <- rexp(n,1) #sample n times from expo(1)
+   sample_mean <- mean(my_sample) #compute the mean of the sample
+   standardized_values[i] <- (sample_mean - mean)/(sqrt(variance)/sqrt(n))
+   #create a standardized value for the sample mean, by subtracting
+   # true mean, and dividing by standard deviation of sample mean
+}
+```
+
+
+
+
+
+```{r}
+hist(standardized_values)
+#The histogram should look approximately Normal
+```
+
+
+
+
